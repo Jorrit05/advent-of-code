@@ -4,24 +4,6 @@ import System.IO
 import Control.Monad
 import Data.List
 
-scoreMapping :: Char -> Int
-scoreMapping 'A' = 1 -- Rock
-scoreMapping 'B' = 2 -- Paper
-scoreMapping 'C' = 3 -- Scissor
-scoreMapping 'X' = 1 -- Rock
-scoreMapping 'Y' = 2 -- Paper
-scoreMapping 'Z' = 3 -- Scissor
-scoreMapping _ = 0
-
-getWinner :: Char -> Char -> Int
-getWinner 'A' 'X' = 3
-getWinner 'A' 'Y' = 6
-getWinner 'B' 'Y' = 3
-getWinner 'B' 'Z' = 6
-getWinner 'C' 'Z' = 3
-getWinner 'C' 'X' = 6
-getWinner _ _ = 0
-
 getMyMove :: Char -> Char -> Int
 getMyMove 'A' 'X' = 3 + 0 -- X = lose = Scissor = 3
 getMyMove 'A' 'Y' = 1 + 3 -- Y = draw = rock = 1
@@ -34,12 +16,45 @@ getMyMove 'C' 'Y' = 3 + 3
 getMyMove 'C' 'Z' = 1 + 6
 getMyMove _ _ = 0
 
+data Game = Rock Int
+            | Paper Int
+            | Scissor Int
+            deriving Show
+
+
+instance Eq Game where
+    Rock _ == Rock _= True
+    Scissor _ == Scissor _ = True
+    Paper _ == Paper _ = True
+    _ == _ = False
+
+instance Ord Game where
+    (>) (Rock _) (Scissor _) = True
+    (>) (Scissor _) (Paper _) = True
+    (>) (Paper _)   (Rock _) = True
+    (>) _ _ = False
+
+get :: Game -> Int
+get (Rock x) = x
+get (Paper x) = x
+get (Scissor x) = x
+
+move :: Char -> Game
+move x  | x == 'A' || x == 'X' = Rock 1
+        | x == 'B' || x == 'Y' = Paper 2
+        | otherwise = Scissor 3
+
     -- X = lose = 0
     -- y = draw = 3
     -- z - win = 6
 
+getWinner :: Game -> Game -> Int
+getWinner x y | x > y = 0
+              | x == y = 3
+              | otherwise = 6
+
 calcScores :: (Char, Char) -> Int
-calcScores (x,y) = scoreMapping y + getWinner x y
+calcScores (x,y) = get (move y) + getWinner (move x) (move y)
 
 calcScoresPuzzle2 :: (Char, Char) -> Int
 calcScoresPuzzle2 (x,y) = getMyMove x y
@@ -54,3 +69,4 @@ main = do
     let puzzle2 = sum $ map calcScoresPuzzle2 moveList
 
     return (puzzle1, puzzle2)
+    -- (9241,14610)
