@@ -36,7 +36,7 @@ list[tuple[str,str ,str]] getGroups([]) {return [<"","","">];}
 
 list[tuple[str,str ,str]] getGroups(list[str] groupsList ){
     list[str] three = take(3, groupsList);
-    tuple[str,str ,str] tupleOfThree =  <head(three), head(tail(three)), last(three)>;
+    tuple[str,str ,str] tupleOfThree =  <three[0], three[1], three[2]>;
     list[tuple[str,str ,str]] snd = getGroups(drop(3,groupsList));
 
     return  [tupleOfThree] + snd;
