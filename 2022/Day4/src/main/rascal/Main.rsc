@@ -36,6 +36,6 @@ tuple[int,int] puzzles(list[str] fileLines){
 
 void main() {
     loc file = |project://Day4/input.txt|;
-    list[str] fileLines = readFileLines(file);
-    println(puzzles(fileLines));
+
+    println(puzzles(readFileLines(file)));
 }
