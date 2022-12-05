@@ -37,7 +37,7 @@ move  (amount, from, to) stack = new
                               insert = replaceAtIndex to (takenLetters ++  stack !! to) stack
                               new = replaceAtIndex from (drop amount $ stack !! from) insert
 
-
+-- Copy from move, only removed the 'reverse'
 movePuz2 :: (Int, Int, Int) -> [String] -> [String]
 movePuz2  (amount, from, to) stack = new
                             where
@@ -56,5 +56,5 @@ main = do
     let result2 = foldl (flip movePuz2) startStack moves
 
     print $ map head $ filter (/= "") result1 -- MQSHJMWNH
-    print $ map head $ filter (/= "") result2 -- MQSHJMWNH
+    print $ map head $ filter (/= "") result2 -- LLWJRBHVZ
 
