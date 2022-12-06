@@ -1,8 +1,6 @@
 module Day6 where
 
-import System.IO
-import Control.Monad
-import Data.List
+import Data.List ( nub )
 
 duplicates :: String -> Bool
 duplicates str = length (nub str) == length str
