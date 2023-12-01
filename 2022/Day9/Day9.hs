@@ -31,13 +31,28 @@ followHead _ []  = []
 followHead _ [x]  = []
 followHead (a,b,c) ((m, n, v):(x, y, z):xs)  | x - a > 1 || y - b > 1 || a -x > 1 || b - y> 1 =  (a,b,c) : followHead (m, n, 1) ((x, y, z):xs)
                                              | otherwise  = followHead (a,b,c) ((x, y, z):xs)
+
+puzzle2 :: (Int, Int, Int) -> [(Int, Int, Int)]-> [(Int, Int, Int)]
+puzzle2 _ []  = []
+puzzle2 (a,b,c) moveList | a == x && b == y = (a,b,1) :  puzzle2 (a,b,1) (drop 9 moveList)
+                         | x - a > 1 || y - b > 1 || a -x > 1 || b - y> 1 =  (a,b,1) :  puzzle2 (x,y,1) (drop 9 moveList)
+                         | otherwise =  (a,b,1) : puzzle2 (x,y,1) (drop 9 moveList)
+                           where
+                              newList = take 9 moveList
+                              positions = tail $ followHead (a,b,c) newList
+                              (x,y,z) = head positions
+
+
 getMoves :: [String] -> [(Char, Int)]
 getMoves = map (\ x -> (head x, readInt (last (split x))))
 
 main = do
-   fileContent <- readFile "input.txt"
+   fileContent <- readFile "test.txt"
    let moveList = handleMoves (0,0,0) $ getMoves $ lines fileContent
 
    let tailList = nub $ (0,0,1) : followHead (0,0,0) moveList
-
-   print $ length  tailList
+   let puzzleTwo = nub $ (0,0,1) : puzzle2 (0,0,0) moveList
+   -- let puzzle2 = nub $ (0,0,1) : puzzle2 (0,0,0) moveList
+   -- puzzle2 (0,0,0) moveList
+   print $ length  puzzleTwo
+   -- print $

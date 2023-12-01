@@ -55,6 +55,6 @@ main = do
     let result1 = foldl (flip move) startStack moves
     let result2 = foldl (flip movePuz2) startStack moves
 
-    print $ map head $ filter (/= "") result1 -- MQSHJMWNH
-    print $ map head $ filter (/= "") result2 -- LLWJRBHVZ
+    print $ map head $ filter (/= "") result1
+    print $ map head $ filter (/= "") result2
 
