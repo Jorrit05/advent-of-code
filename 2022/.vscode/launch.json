@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Day12/main.py",
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/empty_sudoku.txt"],
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/simple_4_grid.txt", "3"],
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/hard_sudoku_1.txt"],
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/empty_25_grid.txt"],
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/2_sol_9_grid.txt", "2"],
+            // "args": ["${workspaceFolder}/python/sudoku/sudoku_boards/4_sol_9_grid.txt", "4"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

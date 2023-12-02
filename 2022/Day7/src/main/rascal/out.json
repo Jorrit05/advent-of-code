@@ -1,0 +1,4633 @@
+{
+    "fs": [
+        {
+            "Folder": "/",
+            "folderContents": [
+                {
+                    "name": "blgtdv",
+                    "src": "|project://Day7/input.txt|(12,10,<3,0>,<3,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "dbrfcz",
+                    "src": "|project://Day7/input.txt|(23,10,<4,0>,<4,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(34,9,<5,0>,<5,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "hbjmndt",
+                    "src": "|project://Day7/input.txt|(44,11,<6,0>,<6,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "hzg",
+                    "src": "|project://Day7/input.txt|(56,7,<7,0>,<7,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "jpjgdm",
+                    "src": "|project://Day7/input.txt|(64,10,<8,0>,<8,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "mtd",
+                    "src": "|project://Day7/input.txt|(75,7,<9,0>,<9,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "pcpf",
+                    "src": "|project://Day7/input.txt|(83,8,<10,0>,<10,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "qfttswwv",
+                    "src": "|project://Day7/input.txt|(92,12,<11,0>,<11,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(105,7,<12,0>,<12,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "zwqgg",
+                    "src": "|project://Day7/input.txt|(113,9,<13,0>,<13,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(0,122,<1,0>,<13,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "blgtdv",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(140,12,<16,0>,<16,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 83465,
+                    "name": "bnm",
+                    "src": "|project://Day7/input.txt|(153,9,<17,0>,<17,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 165543,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(163,12,<18,0>,<18,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 137127,
+                    "name": "cvbnjz.wzp",
+                    "src": "|project://Day7/input.txt|(176,17,<19,0>,<19,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "gzzz",
+                    "src": "|project://Day7/input.txt|(194,8,<20,0>,<20,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "nbdzs",
+                    "src": "|project://Day7/input.txt|(203,9,<21,0>,<21,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "vvmcfptr",
+                    "src": "|project://Day7/input.txt|(213,12,<22,0>,<22,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "wjvzwssp",
+                    "src": "|project://Day7/input.txt|(226,12,<23,0>,<23,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(123,115,<14,0>,<23,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(258,9,<26,0>,<26,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(268,9,<27,0>,<27,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "tvhrzql",
+                    "src": "|project://Day7/input.txt|(278,11,<28,0>,<28,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(239,50,<24,0>,<28,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 315202,
+                    "name": "cqwb.qzt",
+                    "src": "|project://Day7/input.txt|(306,15,<31,0>,<31,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 12768,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(322,14,<32,0>,<32,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(290,46,<29,0>,<32,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(337,7,<33,0>,<33,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "name": "bjp",
+                    "src": "|project://Day7/input.txt|(361,7,<36,0>,<36,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 138548,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(369,14,<37,0>,<37,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 140056,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(384,12,<38,0>,<38,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "drsgv",
+                    "src": "|project://Day7/input.txt|(397,9,<39,0>,<39,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 311875,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(407,12,<40,0>,<40,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(420,7,<41,0>,<41,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "mmtsh",
+                    "src": "|project://Day7/input.txt|(428,9,<42,0>,<42,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(438,9,<43,0>,<43,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 252680,
+                    "name": "qrd.ngg",
+                    "src": "|project://Day7/input.txt|(448,14,<44,0>,<44,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "rdftpm",
+                    "src": "|project://Day7/input.txt|(463,10,<45,0>,<45,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "rzhq",
+                    "src": "|project://Day7/input.txt|(474,8,<46,0>,<46,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(345,137,<34,0>,<46,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjp",
+            "folderContents": [
+                {
+                    "name": "scggvb",
+                    "src": "|project://Day7/input.txt|(497,10,<49,0>,<49,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(483,24,<47,0>,<49,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "scggvb",
+            "folderContents": [
+                {
+                    "size": 29012,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(525,14,<52,0>,<52,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(508,31,<50,0>,<52,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(540,7,<53,0>,<53,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(548,7,<54,0>,<54,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "drsgv",
+            "folderContents": [
+                {
+                    "size": 41717,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(572,13,<57,0>,<57,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 203587,
+                    "name": "jctnszj.nnc",
+                    "src": "|project://Day7/input.txt|(586,18,<58,0>,<58,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 304614,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(605,19,<59,0>,<59,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(556,68,<55,0>,<59,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(625,7,<60,0>,<60,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 292112,
+                    "name": "nlrbdjhf",
+                    "src": "|project://Day7/input.txt|(647,15,<63,0>,<63,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 304873,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(663,19,<64,0>,<64,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(633,49,<61,0>,<64,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(683,7,<65,0>,<65,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mmtsh",
+            "folderContents": [
+                {
+                    "size": 12318,
+                    "name": "fbvvrvc.shb",
+                    "src": "|project://Day7/input.txt|(707,17,<68,0>,<68,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(691,33,<66,0>,<68,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(725,7,<69,0>,<69,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "name": "dnfnl",
+                    "src": "|project://Day7/input.txt|(749,9,<72,0>,<72,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(733,25,<70,0>,<72,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "dnfnl",
+            "folderContents": [
+                {
+                    "size": 191701,
+                    "name": "qfswvhj.wgs",
+                    "src": "|project://Day7/input.txt|(775,18,<75,0>,<75,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(759,34,<73,0>,<75,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(794,7,<76,0>,<76,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(802,7,<77,0>,<77,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "rdftpm",
+            "folderContents": [
+                {
+                    "size": 157406,
+                    "name": "fvwcjbsl.tdr",
+                    "src": "|project://Day7/input.txt|(827,19,<80,0>,<80,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 59827,
+                    "name": "jfdbcwln.frw",
+                    "src": "|project://Day7/input.txt|(847,18,<81,0>,<81,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(810,55,<78,0>,<81,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(866,7,<82,0>,<82,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "rzhq",
+            "folderContents": [
+                {
+                    "name": "wcnm",
+                    "src": "|project://Day7/input.txt|(889,8,<85,0>,<85,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(874,23,<83,0>,<85,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "wcnm",
+            "folderContents": [
+                {
+                    "size": 149296,
+                    "name": "wljbd",
+                    "src": "|project://Day7/input.txt|(913,12,<88,0>,<88,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(898,27,<86,0>,<88,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(926,7,<89,0>,<89,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(934,7,<90,0>,<90,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(942,7,<91,0>,<91,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tvhrzql",
+            "folderContents": [
+                {
+                    "size": 322339,
+                    "name": "hhlh.tdw",
+                    "src": "|project://Day7/input.txt|(968,15,<94,0>,<94,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(950,33,<92,0>,<94,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(984,7,<95,0>,<95,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(992,7,<96,0>,<96,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "gzzz",
+            "folderContents": [
+                {
+                    "size": 156023,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(1015,14,<99,0>,<99,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1000,29,<97,0>,<99,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1030,7,<100,0>,<100,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "nbdzs",
+            "folderContents": [
+                {
+                    "size": 211770,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(1054,14,<103,0>,<103,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 56822,
+                    "name": "qqvmpnj",
+                    "src": "|project://Day7/input.txt|(1069,13,<104,0>,<104,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1038,44,<101,0>,<104,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1083,7,<105,0>,<105,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vvmcfptr",
+            "folderContents": [
+                {
+                    "size": 199919,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(1110,15,<108,0>,<108,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 44895,
+                    "name": "sspcnf",
+                    "src": "|project://Day7/input.txt|(1126,12,<109,0>,<109,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1091,47,<106,0>,<109,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1139,7,<110,0>,<110,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "wjvzwssp",
+            "folderContents": [
+                {
+                    "size": 268729,
+                    "name": "qplvqdv.mch",
+                    "src": "|project://Day7/input.txt|(1166,18,<113,0>,<113,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1147,37,<111,0>,<113,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1185,7,<114,0>,<114,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1193,7,<115,0>,<115,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "dbrfcz",
+            "folderContents": [
+                {
+                    "size": 26907,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(1218,11,<118,0>,<118,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 207774,
+                    "name": "lpv.dpq",
+                    "src": "|project://Day7/input.txt|(1230,14,<119,0>,<119,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1201,43,<116,0>,<119,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1245,7,<120,0>,<120,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 127312,
+                    "name": "bjlcfcfq.nhp",
+                    "src": "|project://Day7/input.txt|(1269,19,<123,0>,<123,19>)",
+                    "comments": []
+                },
+                {
+                    "name": "cdc",
+                    "src": "|project://Day7/input.txt|(1289,7,<124,0>,<124,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(1297,9,<125,0>,<125,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 104875,
+                    "name": "mrjf.qsq",
+                    "src": "|project://Day7/input.txt|(1307,15,<126,0>,<126,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(1323,9,<127,0>,<127,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "qtnnz",
+                    "src": "|project://Day7/input.txt|(1333,9,<128,0>,<128,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 151668,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(1343,19,<129,0>,<129,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 304863,
+                    "name": "swwgtpv.crc",
+                    "src": "|project://Day7/input.txt|(1363,18,<130,0>,<130,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1253,128,<121,0>,<130,18>)",
+            "comments": []
+        },
+        {
+            "Folder": "cdc",
+            "folderContents": [
+                {
+                    "size": 278486,
+                    "name": "dtcdwhjt",
+                    "src": "|project://Day7/input.txt|(1396,15,<133,0>,<133,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 221477,
+                    "name": "frwcvtgq.lgt",
+                    "src": "|project://Day7/input.txt|(1412,19,<134,0>,<134,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1382,49,<131,0>,<134,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1432,7,<135,0>,<135,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 313053,
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(1456,10,<138,0>,<138,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 106354,
+                    "name": "mrjzgw.fgf",
+                    "src": "|project://Day7/input.txt|(1467,17,<139,0>,<139,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(1485,9,<140,0>,<140,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(1495,7,<141,0>,<141,7>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1440,62,<136,0>,<141,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 297912,
+                    "name": "nrc.nrf",
+                    "src": "|project://Day7/input.txt|(1519,14,<144,0>,<144,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1503,30,<142,0>,<144,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1534,7,<145,0>,<145,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "size": 33856,
+                    "name": "cgjj.hvj",
+                    "src": "|project://Day7/input.txt|(1556,14,<148,0>,<148,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1542,28,<146,0>,<148,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1571,7,<149,0>,<149,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1579,7,<150,0>,<150,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 103274,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(1603,12,<153,0>,<153,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 308112,
+                    "name": "hjgnqgpn.lzh",
+                    "src": "|project://Day7/input.txt|(1616,19,<154,0>,<154,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 284461,
+                    "name": "qrd.qbf",
+                    "src": "|project://Day7/input.txt|(1636,14,<155,0>,<155,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1587,63,<151,0>,<155,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1651,7,<156,0>,<156,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qtnnz",
+            "folderContents": [
+                {
+                    "size": 74435,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(1675,14,<159,0>,<159,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 253121,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(1690,19,<160,0>,<160,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1659,50,<157,0>,<160,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1710,7,<161,0>,<161,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1718,7,<162,0>,<162,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "hbjmndt",
+            "folderContents": [
+                {
+                    "size": 319596,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(1744,15,<165,0>,<165,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 236959,
+                    "name": "pdcjnfh.pdr",
+                    "src": "|project://Day7/input.txt|(1760,18,<166,0>,<166,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 75402,
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(1779,11,<167,0>,<167,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 132359,
+                    "name": "qrd.hcg",
+                    "src": "|project://Day7/input.txt|(1791,14,<168,0>,<168,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1726,79,<163,0>,<168,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1806,7,<169,0>,<169,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "hzg",
+            "folderContents": [
+                {
+                    "size": 283914,
+                    "name": "wfhbbjn.qft",
+                    "src": "|project://Day7/input.txt|(1828,18,<172,0>,<172,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1814,32,<170,0>,<172,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(1847,7,<173,0>,<173,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "jpjgdm",
+            "folderContents": [
+                {
+                    "size": 186272,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(1872,15,<176,0>,<176,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "fpgcdvm",
+                    "src": "|project://Day7/input.txt|(1888,11,<177,0>,<177,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "fqh",
+                    "src": "|project://Day7/input.txt|(1900,7,<178,0>,<178,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 196808,
+                    "name": "frntppq.npt",
+                    "src": "|project://Day7/input.txt|(1908,18,<179,0>,<179,18>)",
+                    "comments": []
+                },
+                {
+                    "name": "mcszw",
+                    "src": "|project://Day7/input.txt|(1927,9,<180,0>,<180,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "tgrplmn",
+                    "src": "|project://Day7/input.txt|(1937,11,<181,0>,<181,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "tnhs",
+                    "src": "|project://Day7/input.txt|(1949,8,<182,0>,<182,8>)",
+                    "comments": []
+                },
+                {
+                    "size": 124656,
+                    "name": "vqbnc.pls",
+                    "src": "|project://Day7/input.txt|(1958,16,<183,0>,<183,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1855,119,<174,0>,<183,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "fpgcdvm",
+            "folderContents": [
+                {
+                    "size": 150164,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(1993,15,<186,0>,<186,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "lsj",
+                    "src": "|project://Day7/input.txt|(2009,7,<187,0>,<187,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(2017,7,<188,0>,<188,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 72301,
+                    "name": "qrd.dlm",
+                    "src": "|project://Day7/input.txt|(2025,13,<189,0>,<189,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 184042,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(2039,19,<190,0>,<190,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 247165,
+                    "name": "rgtrzrnj.ngq",
+                    "src": "|project://Day7/input.txt|(2059,19,<191,0>,<191,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 121847,
+                    "name": "vwwmsd.drj",
+                    "src": "|project://Day7/input.txt|(2079,17,<192,0>,<192,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(1975,121,<184,0>,<192,17>)",
+            "comments": []
+        },
+        {
+            "Folder": "lsj",
+            "folderContents": [
+                {
+                    "name": "hdttgfvj",
+                    "src": "|project://Day7/input.txt|(2111,12,<195,0>,<195,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2097,26,<193,0>,<195,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "hdttgfvj",
+            "folderContents": [
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(2143,9,<198,0>,<198,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2124,28,<196,0>,<198,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 96128,
+                    "name": "hszn.dvp",
+                    "src": "|project://Day7/input.txt|(2169,14,<201,0>,<201,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2153,30,<199,0>,<201,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2184,7,<202,0>,<202,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2192,7,<203,0>,<203,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2200,7,<204,0>,<204,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "name": "btltml",
+                    "src": "|project://Day7/input.txt|(2222,10,<207,0>,<207,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "rggvfrgb",
+                    "src": "|project://Day7/input.txt|(2233,12,<208,0>,<208,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2208,37,<205,0>,<208,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "btltml",
+            "folderContents": [
+                {
+                    "size": 264710,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(2263,14,<211,0>,<211,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 148463,
+                    "name": "lvwcnzf",
+                    "src": "|project://Day7/input.txt|(2278,14,<212,0>,<212,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2246,46,<209,0>,<212,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2293,7,<213,0>,<213,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "rggvfrgb",
+            "folderContents": [
+                {
+                    "size": 166064,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(2320,12,<216,0>,<216,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 318209,
+                    "name": "qrd.tgr",
+                    "src": "|project://Day7/input.txt|(2333,14,<217,0>,<217,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2301,46,<214,0>,<217,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2348,7,<218,0>,<218,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2356,7,<219,0>,<219,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2364,7,<220,0>,<220,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fqh",
+            "folderContents": [
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(2386,9,<223,0>,<223,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(2396,7,<224,0>,<224,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "pdqss",
+                    "src": "|project://Day7/input.txt|(2404,9,<225,0>,<225,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2372,41,<221,0>,<225,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(2430,9,<228,0>,<228,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2414,25,<226,0>,<228,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 178819,
+                    "name": "pwcvj.wwt",
+                    "src": "|project://Day7/input.txt|(2456,16,<231,0>,<231,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2440,32,<229,0>,<231,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2473,7,<232,0>,<232,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2481,7,<233,0>,<233,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 304819,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(2503,14,<236,0>,<236,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2489,28,<234,0>,<236,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2518,7,<237,0>,<237,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pdqss",
+            "folderContents": [
+                {
+                    "size": 295812,
+                    "name": "qvrjfw",
+                    "src": "|project://Day7/input.txt|(2542,13,<240,0>,<240,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2526,29,<238,0>,<240,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2556,7,<241,0>,<241,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2564,7,<242,0>,<242,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mcszw",
+            "folderContents": [
+                {
+                    "name": "hdcpljg",
+                    "src": "|project://Day7/input.txt|(2588,11,<245,0>,<245,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "jpgrltj",
+                    "src": "|project://Day7/input.txt|(2600,11,<246,0>,<246,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2572,39,<243,0>,<246,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "hdcpljg",
+            "folderContents": [
+                {
+                    "name": "cwrzb",
+                    "src": "|project://Day7/input.txt|(2630,9,<249,0>,<249,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2612,27,<247,0>,<249,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "cwrzb",
+            "folderContents": [
+                {
+                    "size": 119913,
+                    "name": "cvdrqt.pmm",
+                    "src": "|project://Day7/input.txt|(2656,17,<252,0>,<252,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2640,33,<250,0>,<252,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2674,7,<253,0>,<253,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2682,7,<254,0>,<254,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "jpgrltj",
+            "folderContents": [
+                {
+                    "name": "frqzwfbd",
+                    "src": "|project://Day7/input.txt|(2708,12,<257,0>,<257,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(2721,9,<258,0>,<258,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 303128,
+                    "name": "gpv.vrp",
+                    "src": "|project://Day7/input.txt|(2731,14,<259,0>,<259,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 175649,
+                    "name": "jdtzr",
+                    "src": "|project://Day7/input.txt|(2746,12,<260,0>,<260,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "mhrnnhhz",
+                    "src": "|project://Day7/input.txt|(2759,12,<261,0>,<261,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "mmf",
+                    "src": "|project://Day7/input.txt|(2772,7,<262,0>,<262,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "prpmrtc",
+                    "src": "|project://Day7/input.txt|(2780,11,<263,0>,<263,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 157295,
+                    "name": "zcwvc",
+                    "src": "|project://Day7/input.txt|(2792,12,<264,0>,<264,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2690,114,<255,0>,<264,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "frqzwfbd",
+            "folderContents": [
+                {
+                    "name": "rbpwmbg",
+                    "src": "|project://Day7/input.txt|(2824,11,<267,0>,<267,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2805,30,<265,0>,<267,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "rbpwmbg",
+            "folderContents": [
+                {
+                    "size": 272917,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(2854,14,<270,0>,<270,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2836,32,<268,0>,<270,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2869,7,<271,0>,<271,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2877,7,<272,0>,<272,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(2901,12,<275,0>,<275,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2885,28,<273,0>,<275,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 20843,
+                    "name": "sglqrf.dhq",
+                    "src": "|project://Day7/input.txt|(2933,16,<278,0>,<278,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2914,35,<276,0>,<278,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2950,7,<279,0>,<279,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(2958,7,<280,0>,<280,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mhrnnhhz",
+            "folderContents": [
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(2985,7,<283,0>,<283,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "vwtrwbc",
+                    "src": "|project://Day7/input.txt|(2993,11,<284,0>,<284,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(2966,38,<281,0>,<284,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "size": 288693,
+                    "name": "vvj",
+                    "src": "|project://Day7/input.txt|(3019,10,<287,0>,<287,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3005,24,<285,0>,<287,10>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3030,7,<288,0>,<288,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vwtrwbc",
+            "folderContents": [
+                {
+                    "size": 220203,
+                    "name": "dmp",
+                    "src": "|project://Day7/input.txt|(3056,10,<291,0>,<291,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3038,28,<289,0>,<291,10>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3067,7,<292,0>,<292,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3075,7,<293,0>,<293,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mmf",
+            "folderContents": [
+                {
+                    "size": 134321,
+                    "name": "bjlcfcfq.cct",
+                    "src": "|project://Day7/input.txt|(3097,19,<296,0>,<296,19>)",
+                    "comments": []
+                },
+                {
+                    "name": "dvtbrnp",
+                    "src": "|project://Day7/input.txt|(3117,11,<297,0>,<297,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(3129,7,<298,0>,<298,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "rfnnt",
+                    "src": "|project://Day7/input.txt|(3137,9,<299,0>,<299,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 248903,
+                    "name": "scfrnp.vtv",
+                    "src": "|project://Day7/input.txt|(3147,17,<300,0>,<300,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "sgrnztrg",
+                    "src": "|project://Day7/input.txt|(3165,12,<301,0>,<301,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 104979,
+                    "name": "tbnlqdjd.pvh",
+                    "src": "|project://Day7/input.txt|(3178,19,<302,0>,<302,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3083,114,<294,0>,<302,19>)",
+            "comments": []
+        },
+        {
+            "Folder": "dvtbrnp",
+            "folderContents": [
+                {
+                    "size": 108438,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(3216,12,<305,0>,<305,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 247115,
+                    "name": "dcnsvp.nnv",
+                    "src": "|project://Day7/input.txt|(3229,17,<306,0>,<306,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3198,48,<303,0>,<306,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3247,7,<307,0>,<307,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "size": 13599,
+                    "name": "lvfpgjpm.bsf",
+                    "src": "|project://Day7/input.txt|(3269,18,<310,0>,<310,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 162188,
+                    "name": "qrd.rgc",
+                    "src": "|project://Day7/input.txt|(3288,14,<311,0>,<311,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 144915,
+                    "name": "wrl",
+                    "src": "|project://Day7/input.txt|(3303,10,<312,0>,<312,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 99150,
+                    "name": "znn.bwr",
+                    "src": "|project://Day7/input.txt|(3314,13,<313,0>,<313,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3255,72,<308,0>,<313,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3328,7,<314,0>,<314,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "rfnnt",
+            "folderContents": [
+                {
+                    "size": 267155,
+                    "name": "pwcvj.mff",
+                    "src": "|project://Day7/input.txt|(3352,16,<317,0>,<317,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3336,32,<315,0>,<317,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3369,7,<318,0>,<318,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "sgrnztrg",
+            "folderContents": [
+                {
+                    "size": 96406,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(3396,14,<321,0>,<321,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "fqzt",
+                    "src": "|project://Day7/input.txt|(3411,8,<322,0>,<322,8>)",
+                    "comments": []
+                },
+                {
+                    "size": 286557,
+                    "name": "fvspj.hgs",
+                    "src": "|project://Day7/input.txt|(3420,16,<323,0>,<323,16>)",
+                    "comments": []
+                },
+                {
+                    "name": "fwnfzlsh",
+                    "src": "|project://Day7/input.txt|(3437,12,<324,0>,<324,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 2681,
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(3450,8,<325,0>,<325,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "nhdlzz",
+                    "src": "|project://Day7/input.txt|(3459,10,<326,0>,<326,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 307130,
+                    "name": "pqdf",
+                    "src": "|project://Day7/input.txt|(3470,11,<327,0>,<327,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 26564,
+                    "name": "qjhqq.wpf",
+                    "src": "|project://Day7/input.txt|(3482,15,<328,0>,<328,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3377,120,<319,0>,<328,15>)",
+            "comments": []
+        },
+        {
+            "Folder": "fqzt",
+            "folderContents": [
+                {
+                    "size": 133312,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(3513,15,<331,0>,<331,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "jrvwtcm",
+                    "src": "|project://Day7/input.txt|(3529,11,<332,0>,<332,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "lvwvhh",
+                    "src": "|project://Day7/input.txt|(3541,10,<333,0>,<333,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "qdmwttjf",
+                    "src": "|project://Day7/input.txt|(3552,12,<334,0>,<334,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3498,66,<329,0>,<334,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "jrvwtcm",
+            "folderContents": [
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(3583,7,<337,0>,<337,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(3591,7,<338,0>,<338,7>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3565,33,<335,0>,<338,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 167512,
+                    "name": "fvspj.ncn",
+                    "src": "|project://Day7/input.txt|(3613,16,<341,0>,<341,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 152101,
+                    "name": "hjqnflqq",
+                    "src": "|project://Day7/input.txt|(3630,15,<342,0>,<342,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "jnzjz",
+                    "src": "|project://Day7/input.txt|(3646,9,<343,0>,<343,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 150334,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(3656,15,<344,0>,<344,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 160486,
+                    "name": "pwcvj.wrq",
+                    "src": "|project://Day7/input.txt|(3672,16,<345,0>,<345,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3599,89,<339,0>,<345,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "jnzjz",
+            "folderContents": [
+                {
+                    "size": 159850,
+                    "name": "vqhljfwn.gvn",
+                    "src": "|project://Day7/input.txt|(3705,19,<348,0>,<348,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3689,35,<346,0>,<348,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3725,7,<349,0>,<349,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3733,7,<350,0>,<350,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "size": 159400,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(3755,12,<353,0>,<353,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 76692,
+                    "name": "jmv.pcb",
+                    "src": "|project://Day7/input.txt|(3768,13,<354,0>,<354,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 35340,
+                    "name": "trrllrzh",
+                    "src": "|project://Day7/input.txt|(3782,14,<355,0>,<355,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3741,55,<351,0>,<355,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3797,7,<356,0>,<356,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3805,7,<357,0>,<357,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lvwvhh",
+            "folderContents": [
+                {
+                    "size": 15938,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(3830,11,<360,0>,<360,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3813,28,<358,0>,<360,11>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3842,7,<361,0>,<361,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qdmwttjf",
+            "folderContents": [
+                {
+                    "size": 321474,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(3869,15,<364,0>,<364,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3850,34,<362,0>,<364,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3885,7,<365,0>,<365,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3893,7,<366,0>,<366,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fwnfzlsh",
+            "folderContents": [
+                {
+                    "size": 293768,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(3920,19,<369,0>,<369,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 231923,
+                    "name": "sjsst",
+                    "src": "|project://Day7/input.txt|(3940,12,<370,0>,<370,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 85714,
+                    "name": "tftdtjn.gmj",
+                    "src": "|project://Day7/input.txt|(3953,17,<371,0>,<371,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3901,69,<367,0>,<371,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(3971,7,<372,0>,<372,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "nhdlzz",
+            "folderContents": [
+                {
+                    "size": 32685,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(3996,14,<375,0>,<375,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 144279,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(4011,15,<376,0>,<376,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 87900,
+                    "name": "jvsrrdtl.cfg",
+                    "src": "|project://Day7/input.txt|(4027,18,<377,0>,<377,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 92750,
+                    "name": "lpbl",
+                    "src": "|project://Day7/input.txt|(4046,10,<378,0>,<378,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(3979,77,<373,0>,<378,10>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4057,7,<379,0>,<379,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4065,7,<380,0>,<380,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4073,7,<381,0>,<381,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "prpmrtc",
+            "folderContents": [
+                {
+                    "size": 246802,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(4099,12,<384,0>,<384,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 168865,
+                    "name": "fvspj.qpw",
+                    "src": "|project://Day7/input.txt|(4112,16,<385,0>,<385,16>)",
+                    "comments": []
+                },
+                {
+                    "name": "hblbht",
+                    "src": "|project://Day7/input.txt|(4129,10,<386,0>,<386,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 82290,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(4140,14,<387,0>,<387,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4081,73,<382,0>,<387,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "hblbht",
+            "folderContents": [
+                {
+                    "size": 207362,
+                    "name": "bjlcfcfq.zmn",
+                    "src": "|project://Day7/input.txt|(4172,19,<390,0>,<390,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4155,36,<388,0>,<390,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4192,7,<391,0>,<391,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4200,7,<392,0>,<392,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4208,7,<393,0>,<393,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4216,7,<394,0>,<394,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tgrplmn",
+            "folderContents": [
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(4242,7,<397,0>,<397,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "mcl",
+                    "src": "|project://Day7/input.txt|(4250,7,<398,0>,<398,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 284751,
+                    "name": "mnsfpzg.llt",
+                    "src": "|project://Day7/input.txt|(4258,18,<399,0>,<399,18>)",
+                    "comments": []
+                },
+                {
+                    "name": "qswjwpb",
+                    "src": "|project://Day7/input.txt|(4277,11,<400,0>,<400,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 59462,
+                    "name": "swzffqm.rgh",
+                    "src": "|project://Day7/input.txt|(4289,17,<401,0>,<401,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "tlcsgrsm",
+                    "src": "|project://Day7/input.txt|(4307,12,<402,0>,<402,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4224,95,<395,0>,<402,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(4334,12,<405,0>,<405,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "csmssc",
+                    "src": "|project://Day7/input.txt|(4347,10,<406,0>,<406,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "dpmr",
+                    "src": "|project://Day7/input.txt|(4358,8,<407,0>,<407,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "grt",
+                    "src": "|project://Day7/input.txt|(4367,7,<408,0>,<408,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 56546,
+                    "name": "hbrph",
+                    "src": "|project://Day7/input.txt|(4375,11,<409,0>,<409,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 133153,
+                    "name": "nhpqln",
+                    "src": "|project://Day7/input.txt|(4387,13,<410,0>,<410,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 311003,
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(4401,12,<411,0>,<411,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 196923,
+                    "name": "pwcvj.vzf",
+                    "src": "|project://Day7/input.txt|(4414,16,<412,0>,<412,16>)",
+                    "comments": []
+                },
+                {
+                    "name": "qjm",
+                    "src": "|project://Day7/input.txt|(4431,7,<413,0>,<413,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "vjbrczs",
+                    "src": "|project://Day7/input.txt|(4439,11,<414,0>,<414,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4320,130,<403,0>,<414,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "name": "dcl",
+                    "src": "|project://Day7/input.txt|(4470,7,<417,0>,<417,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(4478,9,<418,0>,<418,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "jfd",
+                    "src": "|project://Day7/input.txt|(4488,7,<419,0>,<419,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 94415,
+                    "name": "nvqznb.fps",
+                    "src": "|project://Day7/input.txt|(4496,16,<420,0>,<420,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 189235,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(4513,19,<421,0>,<421,19>)",
+                    "comments": []
+                },
+                {
+                    "name": "sjmv",
+                    "src": "|project://Day7/input.txt|(4533,8,<422,0>,<422,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "swzpgbv",
+                    "src": "|project://Day7/input.txt|(4542,11,<423,0>,<423,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 191980,
+                    "name": "trlprb",
+                    "src": "|project://Day7/input.txt|(4554,13,<424,0>,<424,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 19551,
+                    "name": "wjzrjgp.wzt",
+                    "src": "|project://Day7/input.txt|(4568,17,<425,0>,<425,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4451,134,<415,0>,<425,17>)",
+            "comments": []
+        },
+        {
+            "Folder": "dcl",
+            "folderContents": [
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(4600,9,<428,0>,<428,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "hfjtj",
+                    "src": "|project://Day7/input.txt|(4610,9,<429,0>,<429,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4586,33,<426,0>,<429,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 23433,
+                    "name": "bwwc.gfq",
+                    "src": "|project://Day7/input.txt|(4636,14,<432,0>,<432,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 305839,
+                    "name": "ldgjls.mmv",
+                    "src": "|project://Day7/input.txt|(4651,17,<433,0>,<433,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "mqbpjgpp",
+                    "src": "|project://Day7/input.txt|(4669,12,<434,0>,<434,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 289110,
+                    "name": "qtwvsjj",
+                    "src": "|project://Day7/input.txt|(4682,14,<435,0>,<435,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 202233,
+                    "name": "sbzmlctz",
+                    "src": "|project://Day7/input.txt|(4697,15,<436,0>,<436,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 152311,
+                    "name": "wblvh.lmh",
+                    "src": "|project://Day7/input.txt|(4713,16,<437,0>,<437,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4620,109,<430,0>,<437,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "mqbpjgpp",
+            "folderContents": [
+                {
+                    "size": 236302,
+                    "name": "bjlcfcfq.qfd",
+                    "src": "|project://Day7/input.txt|(4749,19,<440,0>,<440,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 58279,
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(4769,9,<441,0>,<441,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4730,48,<438,0>,<441,9>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4779,7,<442,0>,<442,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4787,7,<443,0>,<443,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "hfjtj",
+            "folderContents": [
+                {
+                    "size": 314282,
+                    "name": "fqv",
+                    "src": "|project://Day7/input.txt|(4811,10,<446,0>,<446,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 28353,
+                    "name": "gfzcbpr.npj",
+                    "src": "|project://Day7/input.txt|(4822,17,<447,0>,<447,17>)",
+                    "comments": []
+                },
+                {
+                    "size": 191265,
+                    "name": "pvdzvvz.ndn",
+                    "src": "|project://Day7/input.txt|(4840,18,<448,0>,<448,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 324328,
+                    "name": "qrd.qdj",
+                    "src": "|project://Day7/input.txt|(4859,14,<449,0>,<449,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4795,78,<444,0>,<449,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4874,7,<450,0>,<450,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(4882,7,<451,0>,<451,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "name": "brcr",
+                    "src": "|project://Day7/input.txt|(4906,8,<454,0>,<454,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "jjhsmhq",
+                    "src": "|project://Day7/input.txt|(4915,11,<455,0>,<455,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 238436,
+                    "name": "qrd.gqd",
+                    "src": "|project://Day7/input.txt|(4927,14,<456,0>,<456,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "vmdsrmpw",
+                    "src": "|project://Day7/input.txt|(4942,12,<457,0>,<457,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4890,64,<452,0>,<457,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "brcr",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(4970,12,<460,0>,<460,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "grlppjws",
+                    "src": "|project://Day7/input.txt|(4983,12,<461,0>,<461,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "jflb",
+                    "src": "|project://Day7/input.txt|(4996,8,<462,0>,<462,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "tjw",
+                    "src": "|project://Day7/input.txt|(5005,7,<463,0>,<463,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "wdnfspnt",
+                    "src": "|project://Day7/input.txt|(5013,12,<464,0>,<464,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(4955,70,<458,0>,<464,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 8182,
+                    "name": "wvv.pcd",
+                    "src": "|project://Day7/input.txt|(5045,12,<467,0>,<467,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5026,31,<465,0>,<467,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5058,7,<468,0>,<468,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "grlppjws",
+            "folderContents": [
+                {
+                    "name": "pbjllgpv",
+                    "src": "|project://Day7/input.txt|(5085,12,<471,0>,<471,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 99788,
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(5098,9,<472,0>,<472,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "vbfqvcb",
+                    "src": "|project://Day7/input.txt|(5108,11,<473,0>,<473,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5066,53,<469,0>,<473,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "pbjllgpv",
+            "folderContents": [
+                {
+                    "size": 296139,
+                    "name": "bwdbhm",
+                    "src": "|project://Day7/input.txt|(5139,13,<476,0>,<476,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5120,32,<474,0>,<476,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5153,7,<477,0>,<477,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vbfqvcb",
+            "folderContents": [
+                {
+                    "size": 23885,
+                    "name": "cfnqsdrq",
+                    "src": "|project://Day7/input.txt|(5179,14,<480,0>,<480,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5161,32,<478,0>,<480,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5194,7,<481,0>,<481,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5202,7,<482,0>,<482,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "jflb",
+            "folderContents": [
+                {
+                    "size": 242366,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(5225,15,<485,0>,<485,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 221424,
+                    "name": "dmdrj",
+                    "src": "|project://Day7/input.txt|(5241,12,<486,0>,<486,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5210,43,<483,0>,<486,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5254,7,<487,0>,<487,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tjw",
+            "folderContents": [
+                {
+                    "size": 275534,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(5276,14,<490,0>,<490,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5262,28,<488,0>,<490,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5291,7,<491,0>,<491,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "wdnfspnt",
+            "folderContents": [
+                {
+                    "size": 234653,
+                    "name": "fvspj.mhh",
+                    "src": "|project://Day7/input.txt|(5318,16,<494,0>,<494,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 185475,
+                    "name": "gdmvncmd.glf",
+                    "src": "|project://Day7/input.txt|(5335,19,<495,0>,<495,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 241269,
+                    "name": "llpmndb.smv",
+                    "src": "|project://Day7/input.txt|(5355,18,<496,0>,<496,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5299,74,<492,0>,<496,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5374,7,<497,0>,<497,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5382,7,<498,0>,<498,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "jjhsmhq",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(5408,12,<501,0>,<501,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "cngcw",
+                    "src": "|project://Day7/input.txt|(5421,9,<502,0>,<502,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "dgsh",
+                    "src": "|project://Day7/input.txt|(5431,8,<503,0>,<503,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(5440,9,<504,0>,<504,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 75186,
+                    "name": "gfpg",
+                    "src": "|project://Day7/input.txt|(5450,10,<505,0>,<505,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 222104,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(5461,19,<506,0>,<506,19>)",
+                    "comments": []
+                },
+                {
+                    "name": "zhh",
+                    "src": "|project://Day7/input.txt|(5481,7,<507,0>,<507,7>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5390,98,<499,0>,<507,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 322155,
+                    "name": "cmfvqn.bnv",
+                    "src": "|project://Day7/input.txt|(5508,17,<510,0>,<510,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5489,36,<508,0>,<510,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5526,7,<511,0>,<511,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "cngcw",
+            "folderContents": [
+                {
+                    "size": 225265,
+                    "name": "bwblfgg.tbh",
+                    "src": "|project://Day7/input.txt|(5550,18,<514,0>,<514,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 159815,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(5569,19,<515,0>,<515,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5534,54,<512,0>,<515,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5589,7,<516,0>,<516,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "dgsh",
+            "folderContents": [
+                {
+                    "size": 5999,
+                    "name": "qhb",
+                    "src": "|project://Day7/input.txt|(5612,8,<519,0>,<519,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5597,23,<517,0>,<519,8>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5621,7,<520,0>,<520,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "name": "jhvhb",
+                    "src": "|project://Day7/input.txt|(5645,9,<523,0>,<523,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5629,25,<521,0>,<523,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "jhvhb",
+            "folderContents": [
+                {
+                    "size": 284846,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(5671,15,<526,0>,<526,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 268772,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(5687,14,<527,0>,<527,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 63756,
+                    "name": "mjqm.wlj",
+                    "src": "|project://Day7/input.txt|(5702,14,<528,0>,<528,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5655,61,<524,0>,<528,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5717,7,<529,0>,<529,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5725,7,<530,0>,<530,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "zhh",
+            "folderContents": [
+                {
+                    "size": 13809,
+                    "name": "pbfbglt.vjl",
+                    "src": "|project://Day7/input.txt|(5747,17,<533,0>,<533,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5733,31,<531,0>,<533,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5765,7,<534,0>,<534,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5773,7,<535,0>,<535,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vmdsrmpw",
+            "folderContents": [
+                {
+                    "name": "fznqqt",
+                    "src": "|project://Day7/input.txt|(5800,10,<538,0>,<538,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "hpmz",
+                    "src": "|project://Day7/input.txt|(5811,8,<539,0>,<539,8>)",
+                    "comments": []
+                },
+                {
+                    "size": 249340,
+                    "name": "pmmvztbv.rwd",
+                    "src": "|project://Day7/input.txt|(5820,19,<540,0>,<540,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 118626,
+                    "name": "rljmwl.lfl",
+                    "src": "|project://Day7/input.txt|(5840,17,<541,0>,<541,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5781,76,<536,0>,<541,17>)",
+            "comments": []
+        },
+        {
+            "Folder": "fznqqt",
+            "folderContents": [
+                {
+                    "size": 260619,
+                    "name": "bjlcfcfq.lhh",
+                    "src": "|project://Day7/input.txt|(5875,19,<544,0>,<544,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 165606,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(5895,12,<545,0>,<545,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 14095,
+                    "name": "tgnwqlp.npr",
+                    "src": "|project://Day7/input.txt|(5908,17,<546,0>,<546,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5858,67,<542,0>,<546,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5926,7,<547,0>,<547,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "hpmz",
+            "folderContents": [
+                {
+                    "size": 269899,
+                    "name": "qhmsm",
+                    "src": "|project://Day7/input.txt|(5949,12,<550,0>,<550,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5934,27,<548,0>,<550,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5962,7,<551,0>,<551,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5970,7,<552,0>,<552,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(5978,7,<553,0>,<553,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "jfd",
+            "folderContents": [
+                {
+                    "size": 255103,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(6000,15,<556,0>,<556,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(5986,29,<554,0>,<556,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6016,7,<557,0>,<557,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "sjmv",
+            "folderContents": [
+                {
+                    "size": 231148,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(6039,15,<560,0>,<560,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "ctlcvb",
+                    "src": "|project://Day7/input.txt|(6055,10,<561,0>,<561,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(6066,7,<562,0>,<562,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 63332,
+                    "name": "nztdclbs.vfq",
+                    "src": "|project://Day7/input.txt|(6074,18,<563,0>,<563,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 52185,
+                    "name": "rzlc",
+                    "src": "|project://Day7/input.txt|(6093,10,<564,0>,<564,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6024,79,<558,0>,<564,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "ctlcvb",
+            "folderContents": [
+                {
+                    "size": 181515,
+                    "name": "bjlcfcfq.bvz",
+                    "src": "|project://Day7/input.txt|(6121,19,<567,0>,<567,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6104,36,<565,0>,<567,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6141,7,<568,0>,<568,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "name": "cnbzsz",
+                    "src": "|project://Day7/input.txt|(6163,10,<571,0>,<571,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6149,24,<569,0>,<571,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "cnbzsz",
+            "folderContents": [
+                {
+                    "size": 67110,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(6191,14,<574,0>,<574,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6174,31,<572,0>,<574,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6206,7,<575,0>,<575,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6214,7,<576,0>,<576,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6222,7,<577,0>,<577,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "swzpgbv",
+            "folderContents": [
+                {
+                    "name": "qdswczwf",
+                    "src": "|project://Day7/input.txt|(6248,12,<580,0>,<580,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6230,30,<578,0>,<580,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "qdswczwf",
+            "folderContents": [
+                {
+                    "size": 280757,
+                    "name": "pbtmjh.rww",
+                    "src": "|project://Day7/input.txt|(6280,17,<583,0>,<583,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "rvnwwctv",
+                    "src": "|project://Day7/input.txt|(6298,12,<584,0>,<584,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 79261,
+                    "name": "tczj",
+                    "src": "|project://Day7/input.txt|(6311,10,<585,0>,<585,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "vppgbl",
+                    "src": "|project://Day7/input.txt|(6322,10,<586,0>,<586,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 125973,
+                    "name": "wbs.tvl",
+                    "src": "|project://Day7/input.txt|(6333,14,<587,0>,<587,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6261,86,<581,0>,<587,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "rvnwwctv",
+            "folderContents": [
+                {
+                    "name": "lnww",
+                    "src": "|project://Day7/input.txt|(6367,8,<590,0>,<590,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6348,27,<588,0>,<590,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "lnww",
+            "folderContents": [
+                {
+                    "size": 86468,
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(6391,9,<593,0>,<593,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6376,24,<591,0>,<593,9>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6401,7,<594,0>,<594,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6409,7,<595,0>,<595,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vppgbl",
+            "folderContents": [
+                {
+                    "size": 167779,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(6434,19,<598,0>,<598,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6417,36,<596,0>,<598,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6454,7,<599,0>,<599,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6462,7,<600,0>,<600,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6470,7,<601,0>,<601,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6478,7,<602,0>,<602,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "csmssc",
+            "folderContents": [
+                {
+                    "size": 227296,
+                    "name": "vdpcbwr",
+                    "src": "|project://Day7/input.txt|(6503,14,<605,0>,<605,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6486,31,<603,0>,<605,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6518,7,<606,0>,<606,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "dpmr",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(6541,12,<609,0>,<609,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "bqh",
+                    "src": "|project://Day7/input.txt|(6554,7,<610,0>,<610,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 16258,
+                    "name": "dgqftmss.njh",
+                    "src": "|project://Day7/input.txt|(6562,18,<611,0>,<611,18>)",
+                    "comments": []
+                },
+                {
+                    "size": 34709,
+                    "name": "fsdfwtm.vrq",
+                    "src": "|project://Day7/input.txt|(6581,17,<612,0>,<612,17>)",
+                    "comments": []
+                },
+                {
+                    "size": 145444,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(6599,15,<613,0>,<613,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 241098,
+                    "name": "qrd.psl",
+                    "src": "|project://Day7/input.txt|(6615,14,<614,0>,<614,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "tlmdc",
+                    "src": "|project://Day7/input.txt|(6630,9,<615,0>,<615,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6526,113,<607,0>,<615,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 11283,
+                    "name": "ngcbs.mtd",
+                    "src": "|project://Day7/input.txt|(6659,15,<618,0>,<618,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6640,34,<616,0>,<618,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6675,7,<619,0>,<619,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "bqh",
+            "folderContents": [
+                {
+                    "name": "hldwv",
+                    "src": "|project://Day7/input.txt|(6697,9,<622,0>,<622,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6683,23,<620,0>,<622,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "hldwv",
+            "folderContents": [
+                {
+                    "name": "lhtjslpz",
+                    "src": "|project://Day7/input.txt|(6723,12,<625,0>,<625,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 199950,
+                    "name": "lwzcvjvp.qjj",
+                    "src": "|project://Day7/input.txt|(6736,19,<626,0>,<626,19>)",
+                    "comments": []
+                },
+                {
+                    "size": 102516,
+                    "name": "qhdttjp.lcb",
+                    "src": "|project://Day7/input.txt|(6756,18,<627,0>,<627,18>)",
+                    "comments": []
+                },
+                {
+                    "name": "qlbsp",
+                    "src": "|project://Day7/input.txt|(6775,9,<628,0>,<628,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6707,77,<623,0>,<628,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "lhtjslpz",
+            "folderContents": [
+                {
+                    "size": 114219,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(6804,15,<631,0>,<631,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(6820,9,<632,0>,<632,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6785,44,<629,0>,<632,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 253208,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(6846,12,<635,0>,<635,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "tjzcwv",
+                    "src": "|project://Day7/input.txt|(6859,10,<636,0>,<636,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "tzdp",
+                    "src": "|project://Day7/input.txt|(6870,8,<637,0>,<637,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "vpwgc",
+                    "src": "|project://Day7/input.txt|(6879,9,<638,0>,<638,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6830,58,<633,0>,<638,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "tjzcwv",
+            "folderContents": [
+                {
+                    "size": 85489,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(6906,18,<641,0>,<641,18>)",
+                    "comments": []
+                },
+                {
+                    "name": "shsfppt",
+                    "src": "|project://Day7/input.txt|(6925,11,<642,0>,<642,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6889,47,<639,0>,<642,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "shsfppt",
+            "folderContents": [
+                {
+                    "size": 206314,
+                    "name": "fhgmvp.fmv",
+                    "src": "|project://Day7/input.txt|(6955,17,<645,0>,<645,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6937,35,<643,0>,<645,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6973,7,<646,0>,<646,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(6981,7,<647,0>,<647,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tzdp",
+            "folderContents": [
+                {
+                    "size": 319129,
+                    "name": "zvwhbg.qbf",
+                    "src": "|project://Day7/input.txt|(7004,17,<650,0>,<650,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(6989,32,<648,0>,<650,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7022,7,<651,0>,<651,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vpwgc",
+            "folderContents": [
+                {
+                    "size": 81012,
+                    "name": "pclb.wdr",
+                    "src": "|project://Day7/input.txt|(7046,14,<654,0>,<654,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7030,30,<652,0>,<654,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7061,7,<655,0>,<655,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7069,7,<656,0>,<656,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7077,7,<657,0>,<657,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qlbsp",
+            "folderContents": [
+                {
+                    "size": 149628,
+                    "name": "fctp.hzz",
+                    "src": "|project://Day7/input.txt|(7101,15,<660,0>,<660,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7085,31,<658,0>,<660,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7117,7,<661,0>,<661,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7125,7,<662,0>,<662,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7133,7,<663,0>,<663,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tlmdc",
+            "folderContents": [
+                {
+                    "size": 54390,
+                    "name": "dbrt.bns",
+                    "src": "|project://Day7/input.txt|(7157,14,<666,0>,<666,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7141,30,<664,0>,<666,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7172,7,<667,0>,<667,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7180,7,<668,0>,<668,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "grt",
+            "folderContents": [
+                {
+                    "size": 166012,
+                    "name": "fdh",
+                    "src": "|project://Day7/input.txt|(7202,10,<671,0>,<671,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7188,24,<669,0>,<671,10>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7213,7,<672,0>,<672,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qjm",
+            "folderContents": [
+                {
+                    "size": 28225,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(7235,18,<675,0>,<675,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7221,32,<673,0>,<675,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7254,7,<676,0>,<676,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vjbrczs",
+            "folderContents": [
+                {
+                    "size": 198931,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(7280,12,<679,0>,<679,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7262,30,<677,0>,<679,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7293,7,<680,0>,<680,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7301,7,<681,0>,<681,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mcl",
+            "folderContents": [
+                {
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(7323,7,<684,0>,<684,7>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7309,21,<682,0>,<684,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "size": 33750,
+                    "name": "ddhhs.vqq",
+                    "src": "|project://Day7/input.txt|(7345,15,<687,0>,<687,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7331,29,<685,0>,<687,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7361,7,<688,0>,<688,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7369,7,<689,0>,<689,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qswjwpb",
+            "folderContents": [
+                {
+                    "size": 35549,
+                    "name": "fmfjcfj",
+                    "src": "|project://Day7/input.txt|(7395,13,<692,0>,<692,13>)",
+                    "comments": []
+                },
+                {
+                    "name": "hjphpcbg",
+                    "src": "|project://Day7/input.txt|(7409,12,<693,0>,<693,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(7422,7,<694,0>,<694,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 267871,
+                    "name": "ztzz",
+                    "src": "|project://Day7/input.txt|(7430,11,<695,0>,<695,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7377,64,<690,0>,<695,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "hjphpcbg",
+            "folderContents": [
+                {
+                    "size": 245718,
+                    "name": "rsprrb",
+                    "src": "|project://Day7/input.txt|(7461,13,<698,0>,<698,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7442,32,<696,0>,<698,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7475,7,<699,0>,<699,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 37017,
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(7497,11,<702,0>,<702,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7483,25,<700,0>,<702,11>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7509,7,<703,0>,<703,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7517,7,<704,0>,<704,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tlcsgrsm",
+            "folderContents": [
+                {
+                    "size": 300513,
+                    "name": "cnmjs.qnn",
+                    "src": "|project://Day7/input.txt|(7544,16,<707,0>,<707,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 304203,
+                    "name": "jhcmjmnl.mzn",
+                    "src": "|project://Day7/input.txt|(7561,19,<708,0>,<708,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7525,55,<705,0>,<708,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7581,7,<709,0>,<709,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7589,7,<710,0>,<710,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tnhs",
+            "folderContents": [
+                {
+                    "name": "gszv",
+                    "src": "|project://Day7/input.txt|(7612,8,<713,0>,<713,8>)",
+                    "comments": []
+                },
+                {
+                    "name": "lgh",
+                    "src": "|project://Day7/input.txt|(7621,7,<714,0>,<714,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "mtbpfwqp",
+                    "src": "|project://Day7/input.txt|(7629,12,<715,0>,<715,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "zhgqm",
+                    "src": "|project://Day7/input.txt|(7642,9,<716,0>,<716,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7597,54,<711,0>,<716,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "gszv",
+            "folderContents": [
+                {
+                    "size": 83369,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(7667,14,<719,0>,<719,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 70913,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(7682,13,<720,0>,<720,13>)",
+                    "comments": []
+                },
+                {
+                    "name": "dmfbw",
+                    "src": "|project://Day7/input.txt|(7696,9,<721,0>,<721,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "dnhpgb",
+                    "src": "|project://Day7/input.txt|(7706,10,<722,0>,<722,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(7717,9,<723,0>,<723,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 97494,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(7727,14,<724,0>,<724,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(7742,7,<725,0>,<725,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 104639,
+                    "name": "qrd.cpq",
+                    "src": "|project://Day7/input.txt|(7750,14,<726,0>,<726,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7652,112,<717,0>,<726,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "dmfbw",
+            "folderContents": [
+                {
+                    "size": 252522,
+                    "name": "jjw",
+                    "src": "|project://Day7/input.txt|(7781,10,<729,0>,<729,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "nqh",
+                    "src": "|project://Day7/input.txt|(7792,7,<730,0>,<730,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "swlq",
+                    "src": "|project://Day7/input.txt|(7800,8,<731,0>,<731,8>)",
+                    "comments": []
+                },
+                {
+                    "size": 116306,
+                    "name": "tgjhnwsq.fvb",
+                    "src": "|project://Day7/input.txt|(7809,19,<732,0>,<732,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7765,63,<727,0>,<732,19>)",
+            "comments": []
+        },
+        {
+            "Folder": "nqh",
+            "folderContents": [
+                {
+                    "size": 116128,
+                    "name": "vpmc.tmw",
+                    "src": "|project://Day7/input.txt|(7843,15,<735,0>,<735,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7829,29,<733,0>,<735,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7859,7,<736,0>,<736,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "swlq",
+            "folderContents": [
+                {
+                    "name": "bslwvw",
+                    "src": "|project://Day7/input.txt|(7882,10,<739,0>,<739,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "gqq",
+                    "src": "|project://Day7/input.txt|(7893,7,<740,0>,<740,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 162795,
+                    "name": "lpv.fdh",
+                    "src": "|project://Day7/input.txt|(7901,14,<741,0>,<741,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7867,48,<737,0>,<741,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "bslwvw",
+            "folderContents": [
+                {
+                    "size": 67711,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(7933,14,<744,0>,<744,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 212000,
+                    "name": "ptfw.llc",
+                    "src": "|project://Day7/input.txt|(7948,15,<745,0>,<745,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 285956,
+                    "name": "qrd.qsp",
+                    "src": "|project://Day7/input.txt|(7964,14,<746,0>,<746,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7916,62,<742,0>,<746,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(7979,7,<747,0>,<747,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "gqq",
+            "folderContents": [
+                {
+                    "name": "blgnqj",
+                    "src": "|project://Day7/input.txt|(8001,10,<750,0>,<750,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(7987,24,<748,0>,<750,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "blgnqj",
+            "folderContents": [
+                {
+                    "size": 88943,
+                    "name": "nphgztg.bfg",
+                    "src": "|project://Day7/input.txt|(8029,17,<753,0>,<753,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8012,34,<751,0>,<753,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8047,7,<754,0>,<754,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8055,7,<755,0>,<755,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8063,7,<756,0>,<756,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8071,7,<757,0>,<757,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "dnhpgb",
+            "folderContents": [
+                {
+                    "size": 291670,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(8096,15,<760,0>,<760,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 106989,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(8112,12,<761,0>,<761,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 279416,
+                    "name": "plh.bcb",
+                    "src": "|project://Day7/input.txt|(8125,14,<762,0>,<762,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8079,60,<758,0>,<762,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8140,7,<763,0>,<763,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "name": "bcw",
+                    "src": "|project://Day7/input.txt|(8164,7,<766,0>,<766,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 102374,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(8172,12,<767,0>,<767,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 230649,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(8185,15,<768,0>,<768,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(8201,7,<769,0>,<769,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 272047,
+                    "name": "zdfcv.jhm",
+                    "src": "|project://Day7/input.txt|(8209,16,<770,0>,<770,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8148,77,<764,0>,<770,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "bcw",
+            "folderContents": [
+                {
+                    "size": 235582,
+                    "name": "ptlfrl.sjv",
+                    "src": "|project://Day7/input.txt|(8240,17,<773,0>,<773,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8226,31,<771,0>,<773,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8258,7,<774,0>,<774,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 58549,
+                    "name": "pwcvj.ctf",
+                    "src": "|project://Day7/input.txt|(8280,15,<777,0>,<777,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8266,29,<775,0>,<777,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8296,7,<778,0>,<778,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8304,7,<779,0>,<779,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 77416,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(8326,11,<782,0>,<782,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "lgzmvj",
+                    "src": "|project://Day7/input.txt|(8338,10,<783,0>,<783,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8312,36,<780,0>,<783,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "lgzmvj",
+            "folderContents": [
+                {
+                    "size": 81760,
+                    "name": "fsmjc.grz",
+                    "src": "|project://Day7/input.txt|(8366,15,<786,0>,<786,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 318477,
+                    "name": "nccf",
+                    "src": "|project://Day7/input.txt|(8382,11,<787,0>,<787,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 27650,
+                    "name": "pwcvj.zbr",
+                    "src": "|project://Day7/input.txt|(8394,15,<788,0>,<788,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 270952,
+                    "name": "qrd.fhf",
+                    "src": "|project://Day7/input.txt|(8410,14,<789,0>,<789,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8349,75,<784,0>,<789,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8425,7,<790,0>,<790,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8433,7,<791,0>,<791,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8441,7,<792,0>,<792,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lgh",
+            "folderContents": [
+                {
+                    "size": 87112,
+                    "name": "hvtzr",
+                    "src": "|project://Day7/input.txt|(8463,11,<795,0>,<795,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 208042,
+                    "name": "jdqm",
+                    "src": "|project://Day7/input.txt|(8475,11,<796,0>,<796,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 63985,
+                    "name": "mwvszg.dlp",
+                    "src": "|project://Day7/input.txt|(8487,16,<797,0>,<797,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8449,54,<793,0>,<797,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8504,7,<798,0>,<798,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mtbpfwqp",
+            "folderContents": [
+                {
+                    "size": 307186,
+                    "name": "bzg.vzd",
+                    "src": "|project://Day7/input.txt|(8531,14,<801,0>,<801,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 222517,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(8546,15,<802,0>,<802,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 145642,
+                    "name": "lqnd",
+                    "src": "|project://Day7/input.txt|(8562,11,<803,0>,<803,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "zpnwp",
+                    "src": "|project://Day7/input.txt|(8574,9,<804,0>,<804,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8512,71,<799,0>,<804,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "zpnwp",
+            "folderContents": [
+                {
+                    "size": 88669,
+                    "name": "jmqlmppg.dzv",
+                    "src": "|project://Day7/input.txt|(8600,18,<807,0>,<807,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8584,34,<805,0>,<807,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8619,7,<808,0>,<808,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8627,7,<809,0>,<809,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "zhgqm",
+            "folderContents": [
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(8651,9,<812,0>,<812,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 222559,
+                    "name": "rzjhcp.rmw",
+                    "src": "|project://Day7/input.txt|(8661,17,<813,0>,<813,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8635,43,<810,0>,<813,17>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 48736,
+                    "name": "cnpfdfcw",
+                    "src": "|project://Day7/input.txt|(8695,14,<816,0>,<816,14>)",
+                    "comments": []
+                },
+                {
+                    "name": "csdfdgw",
+                    "src": "|project://Day7/input.txt|(8710,11,<817,0>,<817,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(8722,9,<818,0>,<818,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 312206,
+                    "name": "jvpzg.gdl",
+                    "src": "|project://Day7/input.txt|(8732,16,<819,0>,<819,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 163843,
+                    "name": "mfbszb.gfw",
+                    "src": "|project://Day7/input.txt|(8749,17,<820,0>,<820,17>)",
+                    "comments": []
+                },
+                {
+                    "size": 161510,
+                    "name": "rbfgptrl",
+                    "src": "|project://Day7/input.txt|(8767,15,<821,0>,<821,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8679,103,<814,0>,<821,15>)",
+            "comments": []
+        },
+        {
+            "Folder": "csdfdgw",
+            "folderContents": [
+                {
+                    "size": 100340,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(8801,15,<824,0>,<824,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8783,33,<822,0>,<824,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8817,7,<825,0>,<825,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 207884,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(8841,12,<828,0>,<828,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8825,28,<826,0>,<828,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8854,7,<829,0>,<829,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8862,7,<830,0>,<830,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8870,7,<831,0>,<831,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8878,7,<832,0>,<832,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8886,7,<833,0>,<833,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mtd",
+            "folderContents": [
+                {
+                    "name": "mddvqd",
+                    "src": "|project://Day7/input.txt|(8908,10,<836,0>,<836,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "tjhsj",
+                    "src": "|project://Day7/input.txt|(8919,9,<837,0>,<837,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8894,34,<834,0>,<837,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "mddvqd",
+            "folderContents": [
+                {
+                    "name": "qldj",
+                    "src": "|project://Day7/input.txt|(8946,8,<840,0>,<840,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8929,25,<838,0>,<840,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "qldj",
+            "folderContents": [
+                {
+                    "size": 211861,
+                    "name": "dmb",
+                    "src": "|project://Day7/input.txt|(8970,10,<843,0>,<843,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 316204,
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(8981,10,<844,0>,<844,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(8955,36,<841,0>,<844,10>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(8992,7,<845,0>,<845,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9000,7,<846,0>,<846,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "tjhsj",
+            "folderContents": [
+                {
+                    "name": "fhhbq",
+                    "src": "|project://Day7/input.txt|(9024,9,<849,0>,<849,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9008,25,<847,0>,<849,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "fhhbq",
+            "folderContents": [
+                {
+                    "size": 151883,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(9050,15,<852,0>,<852,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 15864,
+                    "name": "dlfz.hgh",
+                    "src": "|project://Day7/input.txt|(9066,14,<853,0>,<853,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 242066,
+                    "name": "fvspj.trt",
+                    "src": "|project://Day7/input.txt|(9081,16,<854,0>,<854,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9034,63,<850,0>,<854,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9098,7,<855,0>,<855,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9106,7,<856,0>,<856,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9114,7,<857,0>,<857,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pcpf",
+            "folderContents": [
+                {
+                    "size": 85832,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(9137,11,<860,0>,<860,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(9149,7,<861,0>,<861,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 35378,
+                    "name": "nnz",
+                    "src": "|project://Day7/input.txt|(9157,9,<862,0>,<862,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 167437,
+                    "name": "pwcvj.nqw",
+                    "src": "|project://Day7/input.txt|(9167,16,<863,0>,<863,16>)",
+                    "comments": []
+                },
+                {
+                    "name": "zrvqgv",
+                    "src": "|project://Day7/input.txt|(9184,10,<864,0>,<864,10>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9122,72,<858,0>,<864,10>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 194689,
+                    "name": "qrd.ctl",
+                    "src": "|project://Day7/input.txt|(9209,14,<867,0>,<867,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9195,28,<865,0>,<867,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9224,7,<868,0>,<868,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "zrvqgv",
+            "folderContents": [
+                {
+                    "size": 316695,
+                    "name": "fspcfc.hcd",
+                    "src": "|project://Day7/input.txt|(9249,17,<871,0>,<871,17>)",
+                    "comments": []
+                },
+                {
+                    "size": 164055,
+                    "name": "qtdswzdg.rfv",
+                    "src": "|project://Day7/input.txt|(9267,19,<872,0>,<872,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9232,54,<869,0>,<872,19>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9287,7,<873,0>,<873,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9295,7,<874,0>,<874,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qfttswwv",
+            "folderContents": [
+                {
+                    "size": 10747,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(9322,13,<877,0>,<877,13>)",
+                    "comments": []
+                },
+                {
+                    "size": 171061,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(9336,12,<878,0>,<878,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "tczrc",
+                    "src": "|project://Day7/input.txt|(9349,9,<879,0>,<879,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "vbzs",
+                    "src": "|project://Day7/input.txt|(9359,8,<880,0>,<880,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9303,64,<875,0>,<880,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "tczrc",
+            "folderContents": [
+                {
+                    "size": 55851,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(9384,14,<883,0>,<883,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 238655,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(9399,15,<884,0>,<884,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 270809,
+                    "name": "gqrcsfp.srl",
+                    "src": "|project://Day7/input.txt|(9415,18,<885,0>,<885,18>)",
+                    "comments": []
+                },
+                {
+                    "name": "hhjsmw",
+                    "src": "|project://Day7/input.txt|(9434,10,<886,0>,<886,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(9445,9,<887,0>,<887,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 92240,
+                    "name": "qtrdjb.lwj",
+                    "src": "|project://Day7/input.txt|(9455,16,<888,0>,<888,16>)",
+                    "comments": []
+                },
+                {
+                    "size": 183588,
+                    "name": "twqfttnb.zft",
+                    "src": "|project://Day7/input.txt|(9472,19,<889,0>,<889,19>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9368,123,<881,0>,<889,19>)",
+            "comments": []
+        },
+        {
+            "Folder": "hhjsmw",
+            "folderContents": [
+                {
+                    "size": 147282,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(9509,15,<892,0>,<892,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9492,32,<890,0>,<892,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9525,7,<893,0>,<893,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(9549,9,<896,0>,<896,9>)",
+                    "comments": []
+                },
+                {
+                    "name": "qncs",
+                    "src": "|project://Day7/input.txt|(9559,8,<897,0>,<897,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9533,34,<894,0>,<897,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 173559,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(9584,15,<900,0>,<900,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(9600,12,<901,0>,<901,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "dhnpch",
+                    "src": "|project://Day7/input.txt|(9613,10,<902,0>,<902,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 1035,
+                    "name": "fvspj.bnr",
+                    "src": "|project://Day7/input.txt|(9624,14,<903,0>,<903,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 89588,
+                    "name": "mcwjg.zwr",
+                    "src": "|project://Day7/input.txt|(9639,15,<904,0>,<904,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 104459,
+                    "name": "qrd",
+                    "src": "|project://Day7/input.txt|(9655,10,<905,0>,<905,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "sjzqb",
+                    "src": "|project://Day7/input.txt|(9666,9,<906,0>,<906,9>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9568,107,<898,0>,<906,9>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 14879,
+                    "name": "cdttjfw",
+                    "src": "|project://Day7/input.txt|(9695,13,<909,0>,<909,13>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9676,32,<907,0>,<909,13>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9709,7,<910,0>,<910,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "dhnpch",
+            "folderContents": [
+                {
+                    "size": 162094,
+                    "name": "lpv.gnt",
+                    "src": "|project://Day7/input.txt|(9734,14,<913,0>,<913,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9717,31,<911,0>,<913,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9749,7,<914,0>,<914,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "sjzqb",
+            "folderContents": [
+                {
+                    "size": 181343,
+                    "name": "qrd.grj",
+                    "src": "|project://Day7/input.txt|(9773,14,<917,0>,<917,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9757,30,<915,0>,<917,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9788,7,<918,0>,<918,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9796,7,<919,0>,<919,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qncs",
+            "folderContents": [
+                {
+                    "size": 53083,
+                    "name": "rdvjhjjr.bbt",
+                    "src": "|project://Day7/input.txt|(9819,18,<922,0>,<922,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9804,33,<920,0>,<922,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9838,7,<923,0>,<923,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9846,7,<924,0>,<924,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(9854,7,<925,0>,<925,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "vbzs",
+            "folderContents": [
+                {
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(9877,12,<928,0>,<928,12>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(9890,9,<929,0>,<929,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 68372,
+                    "name": "jbgpjfp.rgf",
+                    "src": "|project://Day7/input.txt|(9900,17,<930,0>,<930,17>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(9918,7,<931,0>,<931,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "mrlb",
+                    "src": "|project://Day7/input.txt|(9926,8,<932,0>,<932,8>)",
+                    "comments": []
+                },
+                {
+                    "size": 275661,
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(9935,12,<933,0>,<933,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 245928,
+                    "name": "pwcvj.vdn",
+                    "src": "|project://Day7/input.txt|(9948,16,<934,0>,<934,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9862,102,<926,0>,<934,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "bjlcfcfq",
+            "folderContents": [
+                {
+                    "size": 98693,
+                    "name": "lfhvbqbr.dhb",
+                    "src": "|project://Day7/input.txt|(9984,18,<937,0>,<937,18>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(9965,37,<935,0>,<937,18>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10003,7,<938,0>,<938,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvspj",
+            "folderContents": [
+                {
+                    "size": 49016,
+                    "name": "sbdt.jvr",
+                    "src": "|project://Day7/input.txt|(10027,14,<941,0>,<941,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10011,30,<939,0>,<941,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10042,7,<942,0>,<942,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 200303,
+                    "name": "gwdts",
+                    "src": "|project://Day7/input.txt|(10064,12,<945,0>,<945,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 208633,
+                    "name": "hbnt",
+                    "src": "|project://Day7/input.txt|(10077,11,<946,0>,<946,11>)",
+                    "comments": []
+                },
+                {
+                    "size": 311252,
+                    "name": "lmdtnsmr",
+                    "src": "|project://Day7/input.txt|(10089,15,<947,0>,<947,15>)",
+                    "comments": []
+                },
+                {
+                    "name": "pwcvj",
+                    "src": "|project://Day7/input.txt|(10105,9,<948,0>,<948,9>)",
+                    "comments": []
+                },
+                {
+                    "size": 142468,
+                    "name": "qrp.flq",
+                    "src": "|project://Day7/input.txt|(10115,14,<949,0>,<949,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10050,79,<943,0>,<949,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "pwcvj",
+            "folderContents": [
+                {
+                    "size": 292769,
+                    "name": "mpnbhc.pjd",
+                    "src": "|project://Day7/input.txt|(10146,17,<952,0>,<952,17>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10130,33,<950,0>,<952,17>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10164,7,<953,0>,<953,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10172,7,<954,0>,<954,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "mrlb",
+            "folderContents": [
+                {
+                    "size": 294408,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(10195,14,<957,0>,<957,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10180,29,<955,0>,<957,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10210,7,<958,0>,<958,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10218,7,<959,0>,<959,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10226,7,<960,0>,<960,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrd",
+            "folderContents": [
+                {
+                    "name": "gmfgrfh",
+                    "src": "|project://Day7/input.txt|(10248,11,<963,0>,<963,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "hcmghq",
+                    "src": "|project://Day7/input.txt|(10260,10,<964,0>,<964,10>)",
+                    "comments": []
+                },
+                {
+                    "size": 189250,
+                    "name": "lpv.wpc",
+                    "src": "|project://Day7/input.txt|(10271,14,<965,0>,<965,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10234,51,<961,0>,<965,14>)",
+            "comments": []
+        },
+        {
+            "Folder": "gmfgrfh",
+            "folderContents": [
+                {
+                    "size": 236737,
+                    "name": "bbsd.mtl",
+                    "src": "|project://Day7/input.txt|(10304,15,<968,0>,<968,15>)",
+                    "comments": []
+                },
+                {
+                    "size": 237212,
+                    "name": "btj.sdn",
+                    "src": "|project://Day7/input.txt|(10320,14,<969,0>,<969,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 288952,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(10335,12,<970,0>,<970,12>)",
+                    "comments": []
+                },
+                {
+                    "size": 217475,
+                    "name": "jnq.dzb",
+                    "src": "|project://Day7/input.txt|(10348,14,<971,0>,<971,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 180241,
+                    "name": "tfhhncs",
+                    "src": "|project://Day7/input.txt|(10363,14,<972,0>,<972,14>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10286,91,<966,0>,<972,14>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10378,7,<973,0>,<973,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "hcmghq",
+            "folderContents": [
+                {
+                    "name": "fgw",
+                    "src": "|project://Day7/input.txt|(10403,7,<976,0>,<976,7>)",
+                    "comments": []
+                },
+                {
+                    "size": 130490,
+                    "name": "lpv.gnr",
+                    "src": "|project://Day7/input.txt|(10411,14,<977,0>,<977,14>)",
+                    "comments": []
+                },
+                {
+                    "size": 292092,
+                    "name": "pwcvj.fjl",
+                    "src": "|project://Day7/input.txt|(10426,16,<978,0>,<978,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10386,56,<974,0>,<978,16>)",
+            "comments": []
+        },
+        {
+            "Folder": "fgw",
+            "folderContents": [
+                {
+                    "size": 11097,
+                    "name": "cllbb",
+                    "src": "|project://Day7/input.txt|(10457,11,<981,0>,<981,11>)",
+                    "comments": []
+                },
+                {
+                    "name": "fvz",
+                    "src": "|project://Day7/input.txt|(10469,7,<982,0>,<982,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "qrtdvnvv",
+                    "src": "|project://Day7/input.txt|(10477,12,<983,0>,<983,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10443,46,<979,0>,<983,12>)",
+            "comments": []
+        },
+        {
+            "Folder": "fvz",
+            "folderContents": [
+                {
+                    "size": 216721,
+                    "name": "bjlcfcfq",
+                    "src": "|project://Day7/input.txt|(10504,15,<986,0>,<986,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10490,29,<984,0>,<986,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10520,7,<987,0>,<987,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qrtdvnvv",
+            "folderContents": [
+                {
+                    "size": 179262,
+                    "name": "lhtsg.hrn",
+                    "src": "|project://Day7/input.txt|(10547,16,<990,0>,<990,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10528,35,<988,0>,<990,16>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10564,7,<991,0>,<991,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10572,7,<992,0>,<992,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10580,7,<993,0>,<993,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10588,7,<994,0>,<994,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "zwqgg",
+            "folderContents": [
+                {
+                    "name": "gqpfcv",
+                    "src": "|project://Day7/input.txt|(10612,10,<997,0>,<997,10>)",
+                    "comments": []
+                },
+                {
+                    "name": "lpv",
+                    "src": "|project://Day7/input.txt|(10623,7,<998,0>,<998,7>)",
+                    "comments": []
+                },
+                {
+                    "name": "qtgqnqh",
+                    "src": "|project://Day7/input.txt|(10631,11,<999,0>,<999,11>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10596,46,<995,0>,<999,11>)",
+            "comments": []
+        },
+        {
+            "Folder": "gqpfcv",
+            "folderContents": [
+                {
+                    "name": "mwzt",
+                    "src": "|project://Day7/input.txt|(10660,8,<1002,0>,<1002,8>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10643,25,<1000,0>,<1002,8>)",
+            "comments": []
+        },
+        {
+            "Folder": "mwzt",
+            "folderContents": [
+                {
+                    "size": 302445,
+                    "name": "fvspj",
+                    "src": "|project://Day7/input.txt|(10684,12,<1005,0>,<1005,12>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10669,27,<1003,0>,<1005,12>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10697,7,<1006,0>,<1006,7>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10705,7,<1007,0>,<1007,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "lpv",
+            "folderContents": [
+                {
+                    "size": 38004,
+                    "name": "vrcbm.qtb",
+                    "src": "|project://Day7/input.txt|(10727,15,<1010,0>,<1010,15>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10713,29,<1008,0>,<1010,15>)",
+            "comments": []
+        },
+        {
+            "src": "|project://Day7/input.txt|(10743,7,<1011,0>,<1011,7>)",
+            "comments": []
+        },
+        {
+            "Folder": "qtgqnqh",
+            "folderContents": [
+                {
+                    "size": 175846,
+                    "name": "pwcvj.bpm",
+                    "src": "|project://Day7/input.txt|(10769,16,<1014,0>,<1014,16>)",
+                    "comments": []
+                }
+            ],
+            "src": "|project://Day7/input.txt|(10751,34,<1012,0>,<1014,16>)",
+            "comments": []
+        }
+    ],
+    "src": "|project://Day7/input.txt|(0,10785,<1,0>,<1014,16>)",
+    "comments": []
+}
