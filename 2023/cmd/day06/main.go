@@ -21,6 +21,16 @@ func NewRace(time, distance int) *Race {
 	}
 }
 
+var typeMap = map[string]int{
+	"Five of a kind":  7,
+	"Four of a kind":  6,
+	"Full House":      5,
+	"Three of a kind": 4,
+	"Two Pair":        3,
+	"One Pair":        2,
+	"High card":       1,
+}
+
 func main() {
 	startTime := time.Now()
 	input, err := lib.GetInput("input.txt", false)
@@ -37,9 +47,6 @@ func main() {
 
 	totalsPuzzle2 *= getNumberOfPossibleWins(racePuzzleTwo)
 	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-
-	// races := getRaces(input.StringLines)
-
 	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
 
 	duration := time.Since(startTime)
