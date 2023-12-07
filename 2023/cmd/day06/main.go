@@ -21,16 +21,6 @@ func NewRace(time, distance int) *Race {
 	}
 }
 
-var typeMap = map[string]int{
-	"Five of a kind":  7,
-	"Four of a kind":  6,
-	"Full House":      5,
-	"Three of a kind": 4,
-	"Two Pair":        3,
-	"One Pair":        2,
-	"High card":       1,
-}
-
 func main() {
 	startTime := time.Now()
 	input, err := lib.GetInput("input.txt", false)
@@ -54,14 +44,13 @@ func main() {
 }
 
 func getNumberOfPossibleWins(race Race) int {
-	count := 0
 	for i := 1; i < race.Time; i++ {
 		distance := i * (race.Time - i)
 		if distance > race.Distance {
-			count++
+			return (race.Time - i) - i + 1
 		}
 	}
-	return count
+	return 1
 }
 
 func getRaces(input []string) ([]Race, Race) {
