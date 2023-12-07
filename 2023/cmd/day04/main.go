@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"slices"
 	"strings"
-	"time"
 
 	"github.com/Jorrit05/advent-of-code/pkg/lib"
 )
@@ -15,11 +14,8 @@ type Card struct {
 }
 
 func main() {
-	startTime := time.Now()
-	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	startTime, input := lib.Init()
+	defer lib.Close(startTime)
 
 	cards := getCards(*input)
 	result := 0
@@ -57,9 +53,6 @@ func main() {
 	}
 	fmt.Printf("Puzzle 1: %d\n", result)
 	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
-
-	duration := time.Since(startTime)
-	fmt.Println("Execution time: ", duration)
 }
 
 func getCards(input lib.PuzzleInput) []Card {

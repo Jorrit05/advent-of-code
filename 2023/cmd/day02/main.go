@@ -16,9 +16,7 @@ type CubeData struct {
 
 func main() {
 	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	defer lib.Close(startTime)
 
 	totalsPuzzle1 := 0
 	totalsPuzzle2 := 0

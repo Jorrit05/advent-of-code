@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"regexp"
 	"strconv"
-	"time"
 
 	"github.com/Jorrit05/advent-of-code/pkg/lib"
 )
@@ -22,11 +21,8 @@ var digitMap = map[string]string{
 }
 
 func main() {
-	startTime := time.Now()
-	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	startTime, input := lib.Init()
+	defer lib.Close(startTime)
 
 	totalsPuzzle1 := 0
 	totalsPuzzle2 := 0
@@ -43,9 +39,6 @@ func main() {
 
 	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
 	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
-
-	duration := time.Since(startTime)
-	fmt.Println("Execution time: ", duration)
 }
 
 func getPuzzleTwoNumbers(word string) []int {

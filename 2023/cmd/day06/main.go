@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	"time"
 
 	"github.com/Jorrit05/advent-of-code/pkg/lib"
 )
@@ -22,11 +21,9 @@ func NewRace(time, distance int) *Race {
 }
 
 func main() {
-	startTime := time.Now()
-	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	startTime, input := lib.Init()
+	defer lib.Close(startTime)
+
 	races, racePuzzleTwo := getRaces(input.StringLines)
 	totalsPuzzle1 := 1
 	totalsPuzzle2 := 1
@@ -38,9 +35,6 @@ func main() {
 	totalsPuzzle2 *= getNumberOfPossibleWins(racePuzzleTwo)
 	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
 	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
-
-	duration := time.Since(startTime)
-	fmt.Println("Execution time: ", duration)
 }
 
 func getNumberOfPossibleWins(race Race) int {

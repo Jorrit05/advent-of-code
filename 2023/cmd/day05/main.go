@@ -5,7 +5,6 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-	"time"
 
 	"github.com/Jorrit05/advent-of-code/pkg/lib"
 )
@@ -21,11 +20,8 @@ var mutex = &sync.Mutex{}
 var mutex2 = &sync.Mutex{}
 
 func main() {
-	startTime := time.Now()
-	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	startTime, input := lib.Init()
+	defer lib.Close(startTime)
 
 	seeds := getSeeds(input.StringLines[0])
 	seedPairs := getSeedPairs(input.StringLines[0])
@@ -42,9 +38,6 @@ func main() {
 	findLocationsTwo(seedPairs, soilMap, locationsTwo, mutex)
 	res2, _ := KeyWithLowestValue(locationsTwo)
 	fmt.Printf("Puzzle 2: %d\n", res2)
-
-	duration := time.Since(startTime)
-	fmt.Println("Execution time: ", duration)
 }
 
 var alreadyChecked = make(map[int]rune)

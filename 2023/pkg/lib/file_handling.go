@@ -2,15 +2,42 @@ package lib
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"os"
 	"strings"
+	"time"
 )
 
 type PuzzleInput struct {
 	Lines           [][]string
 	TransposedLines [][]string
 	StringLines     []string
+}
+
+func Init() (time.Time, *PuzzleInput) {
+	iFlag := flag.Bool("i", false, "When passed the input.txt file is taken")
+
+	tm := time.Now()
+	flag.Parse()
+
+	inputFile := "sample.txt"
+	if *iFlag {
+		inputFile = "input.txt"
+	}
+
+	input, err := GetInput(inputFile, false)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	return tm, input
+}
+
+func Close(startTime time.Time) {
+
+	duration := time.Since(startTime)
+	fmt.Println("Execution time: ", duration)
 }
 
 func NewPuzzleInputFromFile(filePath string, doTranspose bool) (*PuzzleInput, error) {

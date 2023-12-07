@@ -24,10 +24,8 @@ var allowedChars = map[string]bool{
 }
 
 func main() {
-	input, err := lib.GetInput("input.txt", false)
-	if err != nil {
-		fmt.Println(err)
-	}
+	startTime, input := lib.Init()
+	defer lib.Close(startTime)
 
 	numberIndexSlice := getIndexesOfNumbers(*input)
 	totalsPuzzle1 := getValidEngineParts(numberIndexSlice, input)
