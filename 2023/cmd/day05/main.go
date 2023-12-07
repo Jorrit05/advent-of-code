@@ -53,10 +53,10 @@ func findLocationsTwo(seedPairs []SeedRange, soilMap map[string]ConversionMap, l
 	var wg sync.WaitGroup
 
 	for _, seedPair := range seedPairs {
+		wg.Add(1) // Increment the WaitGroup counter
 		go func(seedPair SeedRange) {
-
-			wg.Add(1)       // Increment the WaitGroup counter
 			defer wg.Done() // Decrement the counter when the goroutine completes
+
 			for _, destination := range soilMap["seed"].Destinations {
 				if seedPair.Start >= destination.SourceRange && seedPair.Start < destination.SourceRange+destination.Length {
 					end := min(seedPair.Start+seedPair.Increment, destination.SourceRange+destination.Length)
