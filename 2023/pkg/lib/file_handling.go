@@ -35,7 +35,6 @@ func Init() (time.Time, *PuzzleInput) {
 }
 
 func Close(startTime time.Time) {
-
 	duration := time.Since(startTime)
 	fmt.Println("Execution time: ", duration)
 }

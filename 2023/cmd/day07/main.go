@@ -39,12 +39,11 @@ func customSort(a, b Hand) bool {
 func main() {
 	startTime, input := lib.Init()
 	defer lib.Close(startTime)
+	puzzle1Res := 0
+	puzzle2Res := 0
 
 	hands := make([]Hand, len(input.StringLines))
 	handsTwo := make([]Hand, len(input.StringLines))
-
-	totalsPuzzle1 := 0
-	totalsPuzzle2 := 0
 
 	getHands(input.StringLines, hands, handsTwo)
 
@@ -53,7 +52,7 @@ func main() {
 		determineHandPuzzleTwo(&handsTwo[i])
 	}
 
-	for i, _ := range handsTwo {
+	for i := range handsTwo {
 		handsTwo[i].Cards = replaceMultiple(handsTwo[i].Cards, replacementsTwo)
 	}
 
@@ -63,14 +62,14 @@ func main() {
 	// Puzzle 1
 	for rank, hand := range hands {
 		rank++
-		totalsPuzzle1 += (hand.Bid * rank)
+		puzzle1Res += (hand.Bid * rank)
 	}
 	for rank, hand := range handsTwo {
 		rank++
-		totalsPuzzle2 += (hand.Bid * rank)
+		puzzle2Res += (hand.Bid * rank)
 	}
-	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
+	fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
+	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)
 }
 
 func getHands(input []string, hands []Hand, handsTwo []Hand) {
