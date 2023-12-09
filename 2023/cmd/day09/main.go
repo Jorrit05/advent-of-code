@@ -16,7 +16,13 @@ func main() {
 
 	environmentalReport := getNumbers(input.StringLines)
 	puzzle1Res = extrapolateForecast(environmentalReport)
-	// fmt.Println(environmentalReport)
+
+	for _, content := range environmentalReport {
+		lib.ReverseSlice(content)
+	}
+
+	puzzle2Res = extrapolateForecast(environmentalReport)
+
 	fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
 	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)
 }
