@@ -7,10 +7,8 @@ import (
 )
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-	puzzle1Res := 0
-	puzzle2Res := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
 	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)

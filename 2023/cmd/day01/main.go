@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 	"strconv"
 
@@ -21,24 +20,18 @@ var digitMap = map[string]string{
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-
-	totalsPuzzle1 := 0
-	totalsPuzzle2 := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	for _, word := range input.Lines {
 		puzzle1Numbers := getNumbersOnline(word)
-		totalsPuzzle1 += extractValue(puzzle1Numbers)
+		puzzle1Res += extractValue(puzzle1Numbers)
 	}
 
 	for _, word := range input.StringLines {
 		puzzle2Numbers := getPuzzleTwoNumbers(word)
-		totalsPuzzle2 += extractValue(puzzle2Numbers)
+		puzzle2Res += extractValue(puzzle2Numbers)
 	}
-
-	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
 }
 
 func getPuzzleTwoNumbers(word string) []int {

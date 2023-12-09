@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"slices"
 	"strings"
 
@@ -14,11 +13,11 @@ type Card struct {
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	cards := getCards(*input)
-	result := 0
+
 	puzzle2Map := make(map[int]int)
 
 	for i, card := range cards {
@@ -34,9 +33,9 @@ func main() {
 		if count == 0 {
 			continue
 		} else if count == 1 {
-			result += 1
+			puzzle1Res += 1
 		} else {
-			result += 1 << (count - 1)
+			puzzle1Res += 1 << (count - 1)
 		}
 
 		for i := 0; i < puzzle2Map[currentCard]; i++ {
@@ -47,12 +46,9 @@ func main() {
 		}
 	}
 
-	totalsPuzzle2 := 0
 	for _, v := range puzzle2Map {
-		totalsPuzzle2 += v
+		puzzle2Res += v
 	}
-	fmt.Printf("Puzzle 1: %d\n", result)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
 }
 
 func getCards(input lib.PuzzleInput) []Card {

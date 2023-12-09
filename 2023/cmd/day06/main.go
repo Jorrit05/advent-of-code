@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 
@@ -21,20 +20,18 @@ func NewRace(time, distance int) *Race {
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	puzzle1Res = 1
+	puzzle2Res = 1
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	races, racePuzzleTwo := getRaces(input.StringLines)
-	totalsPuzzle1 := 1
-	totalsPuzzle2 := 1
 
 	for _, race := range races {
-		totalsPuzzle1 *= getNumberOfPossibleWins(race)
+		puzzle1Res *= getNumberOfPossibleWins(race)
 	}
 
-	totalsPuzzle2 *= getNumberOfPossibleWins(racePuzzleTwo)
-	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
+	puzzle2Res *= getNumberOfPossibleWins(racePuzzleTwo)
 }
 
 func getNumberOfPossibleWins(race Race) int {

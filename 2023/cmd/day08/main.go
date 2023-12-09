@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 
@@ -9,10 +8,9 @@ import (
 )
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-	// var puzzle1Res, puzzle2Res int
-	puzzle2Res := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
+
 	routes := make(map[string]lib.Pair[lib.StringCompare], len(input.StringLines))
 
 	getRoutes(input, routes)
@@ -45,8 +43,6 @@ func main() {
 	// 	}
 	// }
 	// fmt.Println(startPositions)
-	// fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
-	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)
 }
 
 func getStartPosition(routes map[string]lib.Pair[lib.StringCompare]) []string {

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"slices"
 	"strconv"
 	"strings"
@@ -15,11 +14,8 @@ type CubeData struct {
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-
-	totalsPuzzle1 := 0
-	totalsPuzzle2 := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	nrOfCubesMap := map[string]int{
 		"red":   12,
@@ -40,7 +36,7 @@ func main() {
 			}
 		}
 		if !tooManyCubes {
-			totalsPuzzle1 += cubeData.GameID
+			puzzle1Res += cubeData.GameID
 		}
 
 		// Puzzle 2
@@ -48,11 +44,8 @@ func main() {
 		maxBlue := slices.Max(cubeData.ColorValues["blue"])
 		maxGreen := slices.Max(cubeData.ColorValues["green"])
 
-		totalsPuzzle2 += maxRed * maxBlue * maxGreen
+		puzzle2Res += maxRed * maxBlue * maxGreen
 	}
-
-	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
 }
 
 func getCubeNumbers(input lib.PuzzleInput) []CubeData {

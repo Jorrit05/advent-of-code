@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 
@@ -9,22 +8,17 @@ import (
 )
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-	puzzle1Res := 0
-	puzzle2Res := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	environmentalReport := getNumbers(input.StringLines)
-	puzzle1Res = extrapolateForecast(environmentalReport)
+	extrapolateForecast(environmentalReport, &puzzle1Res)
 
 	for _, content := range environmentalReport {
 		lib.ReverseSlice(content)
 	}
 
-	puzzle2Res = extrapolateForecast(environmentalReport)
-
-	fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
-	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)
+	extrapolateForecast(environmentalReport, &puzzle2Res)
 }
 
 type Forecast struct {
@@ -32,8 +26,8 @@ type Forecast struct {
 	NewLine    []int
 }
 
-func extrapolateForecast(environmentalReport [][]int) int {
-	result := 0
+func extrapolateForecast(environmentalReport [][]int, result *int) {
+	*result = 0
 	for _, lineHistory := range environmentalReport {
 		forecasts := []*Forecast{{
 			NewLine: lineHistory,
@@ -45,7 +39,7 @@ func extrapolateForecast(environmentalReport [][]int) int {
 
 			getDifferences(current, forecast)
 			if len(forecast.Collection) == 1 {
-				result += calculateNewForecast(forecast, forecasts)
+				*result += calculateNewForecast(forecast, forecasts)
 				break
 			}
 			forecasts = append(forecasts, forecast)
@@ -53,7 +47,6 @@ func extrapolateForecast(environmentalReport [][]int) int {
 			current = forecast.NewLine
 		}
 	}
-	return result
 }
 
 func calculateNewForecast(forecast *Forecast, forecasts []*Forecast) int {

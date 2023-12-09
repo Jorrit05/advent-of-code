@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 	"strconv"
 	"strings"
@@ -37,10 +36,8 @@ func customSort(a, b Hand) bool {
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
-	puzzle1Res := 0
-	puzzle2Res := 0
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	hands := make([]Hand, len(input.StringLines))
 	handsTwo := make([]Hand, len(input.StringLines))
@@ -64,12 +61,12 @@ func main() {
 		rank++
 		puzzle1Res += (hand.Bid * rank)
 	}
+
+	// Puzzle 2
 	for rank, hand := range handsTwo {
 		rank++
 		puzzle2Res += (hand.Bid * rank)
 	}
-	fmt.Printf("Puzzle 1: %d\n", puzzle1Res)
-	fmt.Printf("Puzzle 2: %d\n", puzzle2Res)
 }
 
 func getHands(input []string, hands []Hand, handsTwo []Hand) {

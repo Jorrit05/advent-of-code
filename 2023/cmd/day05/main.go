@@ -20,8 +20,8 @@ var mutex = &sync.Mutex{}
 var mutex2 = &sync.Mutex{}
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	seeds := getSeeds(input.StringLines[0])
 	seedPairs := getSeedPairs(input.StringLines[0])
@@ -32,12 +32,10 @@ func main() {
 	for _, seed := range seeds {
 		findLocations(seed, soilMap, locations, mutex)
 	}
-	res, _ := KeyWithLowestValue(locations)
-	fmt.Printf("Puzzle 1: %d\n", res)
+	puzzle1Res, _ = KeyWithLowestValue(locations)
 
 	findLocationsTwo(seedPairs, soilMap, locationsTwo, mutex)
-	res2, _ := KeyWithLowestValue(locationsTwo)
-	fmt.Printf("Puzzle 2: %d\n", res2)
+	puzzle2Res, _ = KeyWithLowestValue(locationsTwo)
 }
 
 var alreadyChecked = make(map[int]rune)

@@ -24,15 +24,12 @@ var allowedChars = map[string]bool{
 }
 
 func main() {
-	startTime, input := lib.Init()
-	defer lib.Close(startTime)
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
 	numberIndexSlice := getIndexesOfNumbers(*input)
-	totalsPuzzle1 := getValidEngineParts(numberIndexSlice, input)
-	totalsPuzzle2 := getCorrectGears(numberIndexSlice, input)
-
-	fmt.Printf("Puzzle 1: %d\n", totalsPuzzle1)
-	fmt.Printf("Puzzle 2: %d\n", totalsPuzzle2)
+	puzzle1Res = getValidEngineParts(numberIndexSlice, input)
+	puzzle2Res = getCorrectGears(numberIndexSlice, input)
 }
 
 func getValidEngineParts(numberIndexSlice [][][]int, input *lib.PuzzleInput) int {

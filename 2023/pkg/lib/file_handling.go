@@ -15,7 +15,7 @@ type PuzzleInput struct {
 	StringLines     []string
 }
 
-func Init() (time.Time, *PuzzleInput) {
+func Init() (time.Time, *PuzzleInput, int, int) {
 	iFlag := flag.Bool("i", false, "When passed the input.txt file is taken")
 
 	tm := time.Now()
@@ -31,10 +31,12 @@ func Init() (time.Time, *PuzzleInput) {
 		fmt.Println(err)
 	}
 
-	return tm, input
+	return tm, input, 0, 0
 }
 
-func Close(startTime time.Time) {
+func Close(startTime time.Time, puzzle1Res, puzzle2Res *int) {
+	fmt.Printf("Puzzle 1: %d\n", *puzzle1Res)
+	fmt.Printf("Puzzle 2: %d\n", *puzzle2Res)
 	duration := time.Since(startTime)
 	fmt.Println("Execution time: ", duration)
 }
