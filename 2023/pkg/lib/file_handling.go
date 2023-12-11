@@ -64,7 +64,7 @@ func NewPuzzleInputFromFile(filePath string, doTranspose bool) (*PuzzleInput, er
 
 	var transposedLines [][]string
 	if doTranspose {
-		transposedLines = transpose(lines)
+		transposedLines = Transpose(lines)
 	}
 
 	return &PuzzleInput{
@@ -74,7 +74,7 @@ func NewPuzzleInputFromFile(filePath string, doTranspose bool) (*PuzzleInput, er
 	}, nil
 }
 
-func transpose(slice [][]string) [][]string {
+func Transpose(slice [][]string) [][]string {
 	if len(slice) == 0 {
 		return slice
 	}

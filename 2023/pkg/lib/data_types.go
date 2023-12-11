@@ -1,5 +1,10 @@
 package lib
 
+type Coordinate struct {
+	Row int
+	Col int
+}
+
 // type IntPair struct {
 // 	Lhs, Rhs int
 // }
@@ -90,4 +95,16 @@ func (i StringCompare) Compare(other StringCompare) int {
 		return 1
 	}
 	return 0
+}
+
+func GenerateIntPairs(rangeEnd int) []Pair[IntCompare] {
+	var pairs []Pair[IntCompare]
+
+	for i := 1; i < rangeEnd; i++ {
+		for j := i + 1; j <= rangeEnd; j++ {
+			pairs = append(pairs, Pair[IntCompare]{IntCompare(i), IntCompare(j)})
+		}
+	}
+
+	return pairs
 }

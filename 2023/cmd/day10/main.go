@@ -72,14 +72,8 @@ func main() {
 
 	// Puzzle2
 	sanitizedInput := fillEdges(input.StringLines)
-	prettyPrint(sanitizedInput)
+	lib.PrettyPrint(sanitizedInput)
 
-}
-
-func prettyPrint(maze [][]string) {
-	for _, line := range maze {
-		fmt.Println(line)
-	}
 }
 
 func fillEdges(maze []string) [][]string {
@@ -149,9 +143,9 @@ func markAllNeighbors(row, col int, lines [][]string, maxWidth, maxLength int) {
 	}
 	possibleDirections = possibleDirections.Difference(inValidDirection)
 
-	if row == 8 && col == 6 {
-		fmt.Println("break")
-	}
+	// if row == 8 && col == 6 {
+	// 	fmt.Println("break")
+	// }
 	for direction := range possibleDirections {
 		move := directions[direction]
 		newRow := currentPosition.Row + move[0]

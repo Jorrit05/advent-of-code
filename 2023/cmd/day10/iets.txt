@@ -140,4 +140,4 @@
 [| - L F J J J L L J L J 0 F J F - - 7 J - 0 L J L - J L L L - L - F - 7 - | J 0 | L J J 0 L F J J - L L L 0 L L L J | J L J | - L L - F J L L J - J 7 - - L J L L - L J 0 | L L - F J J L L L J 0 L | J J L F | - J - J L J - F J 0 F J 0 L | L L J L 0 0 L J F J L - F J J L J - - F J]
 Puzzle 1: 6909
 Puzzle 2: 0
-Execution time:  11.763719ms
+Execution time:  19.756973ms
