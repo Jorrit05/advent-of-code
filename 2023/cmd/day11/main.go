@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 
@@ -9,36 +8,47 @@ import (
 )
 
 var coordinateMap = make(map[int]lib.Coordinate)
+var baseMultiplier = 1
 
 func main() {
-	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init(true)
 	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
 
-	nrOfGalaxies, galaxyMap := prepareGalaxy(input.Lines)
-
+	rowsToExpand := getEmptyRows(input.Lines)
+	columnsToExpand := getEmptyRows(input.TransposedLines)
+	nrOfGalaxies := numberGalaxy(input.Lines)
 	galaxyPairs := lib.GenerateIntPairs(nrOfGalaxies)
 
-	puzzle1Res = getGalaxyDistances(galaxyPairs, galaxyMap)
+	puzzle1Res = getGalaxyDistances(galaxyPairs, rowsToExpand, columnsToExpand)
 
 	//puzzle2
-	// probably instead of doing the array transformation, just
-	// get all coordinates without expanding the galaxy, then add
-	// expansions manually. (so in rowDiff, is there a column that needs to be expanded in between)
-	// _, galaxyMap := prepareGalaxy(input.Lines)
-
+	baseMultiplier = 999999
+	puzzle2Res = getGalaxyDistances(galaxyPairs, rowsToExpand, columnsToExpand)
 }
 
-func getGalaxyDistances(galaxyPairs []lib.Pair[lib.IntCompare], galaxyMap [][]int) (result int) {
+func getGalaxyDistances(galaxyPairs []lib.Pair[lib.IntCompare], rowSet lib.IntSet, columnSet lib.IntSet) (result int) {
 	for _, pair := range galaxyPairs {
 		coordinate1 := coordinateMap[int(pair.Fst)]
 		coordinate2 := coordinateMap[int(pair.Snd)]
-		result += calculateDistance(coordinate1, coordinate2, galaxyMap)
+		extraDistanceRow := checkInBetweenExpansions(coordinate1.Row, coordinate2.Row, rowSet)
+		extraDistanceCol := checkInBetweenExpansions(coordinate1.Col, coordinate2.Col, columnSet)
+
+		result += calculateDistance(coordinate1, coordinate2) + extraDistanceRow + extraDistanceCol
+	}
+	return
+}
+
+func checkInBetweenExpansions(i1, i2 int, set lib.IntSet) (count int) {
+	for i := min(i1, i2); i <= max(i1, i2); i++ {
+		if set.Has(i) {
+			count += baseMultiplier
+		}
 	}
 	return
 }
 
 // calculateDistance calculates the Manhattan distance between two coordinates on a grid.
-func calculateDistance(coordinate1, coordinate2 lib.Coordinate, galaxyMap [][]int) int {
+func calculateDistance(coordinate1, coordinate2 lib.Coordinate) int {
 	// Calculate the absolute difference in rows and columns
 	rowDiff := math.Abs(float64(coordinate1.Row - coordinate2.Row))
 	colDiff := math.Abs(float64(coordinate1.Col - coordinate2.Col))
@@ -46,40 +56,6 @@ func calculateDistance(coordinate1, coordinate2 lib.Coordinate, galaxyMap [][]in
 	// Sum the differences to get the Manhattan distance
 	distance := int(rowDiff + colDiff)
 	return distance
-}
-
-func prepareGalaxy(lines [][]string) (int, [][]int) {
-	rowNumbers := getEmptyRows(lines)
-	galaxyMap := expandGalaxy(lines, rowNumbers)
-	galaxyMap = lib.Transpose(galaxyMap)
-	rowNumbers = getEmptyRows(galaxyMap)
-
-	galaxyMap = expandGalaxy(galaxyMap, rowNumbers)
-
-	galaxyMap = lib.Transpose(galaxyMap)
-	count := numberGalaxy(galaxyMap)
-
-	intMap := make([][]int, len(galaxyMap))
-	for i := range intMap {
-		intMap[i] = make([]int, len(galaxyMap[i]))
-	}
-
-	for row, line := range galaxyMap {
-		for col, char := range line {
-			if char == "." {
-				intMap[row][col] = 0
-			} else {
-				nr, err := strconv.Atoi(char)
-				if err != nil {
-					fmt.Println(err)
-				}
-				intMap[row][col] = nr
-				coordinateMap[nr] = lib.Coordinate{Row: row, Col: col}
-			}
-		}
-	}
-
-	return count, intMap
 }
 
 func numberGalaxy(galaxyMap [][]string) int {
@@ -93,26 +69,15 @@ func numberGalaxy(galaxyMap [][]string) int {
 	return count
 }
 
-func getEmptyRows(lines [][]string) (rowNumbers []int) {
+func getEmptyRows(lines [][]string) lib.IntSet {
+	rowNumbers := make(lib.IntSet)
 	for i, line := range lines {
 		indexes := findCharOccurrences(line, "#")
 		if len(indexes) == 0 {
-			rowNumbers = append(rowNumbers, i)
+			rowNumbers.Add(i)
 		}
 	}
-	return
-}
-
-func expandGalaxy(lines [][]string, rowNumbers []int) [][]string {
-	tmp := lines
-	emptyLine := lib.InitStringSlice(len(lines[0]), ".")
-	count := 0
-
-	for _, rowNumber := range rowNumbers {
-		tmp = lib.InsertIntoSliceAtIndex(tmp, emptyLine, (rowNumber + count))
-		count++
-	}
-	return tmp
+	return rowNumbers
 }
 
 func setNumbers(count int, indexes []int, row int, lines [][]string) int {
@@ -120,6 +85,7 @@ func setNumbers(count int, indexes []int, row int, lines [][]string) int {
 	for _, index := range indexes {
 		newCount++
 		lines[row][index] = strconv.Itoa(newCount)
+		coordinateMap[newCount] = lib.Coordinate{Row: row, Col: index}
 	}
 	return newCount
 }

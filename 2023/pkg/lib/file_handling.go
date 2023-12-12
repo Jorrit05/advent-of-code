@@ -15,7 +15,7 @@ type PuzzleInput struct {
 	StringLines     []string
 }
 
-func Init() (time.Time, *PuzzleInput, int, int) {
+func Init(transpose ...bool) (time.Time, *PuzzleInput, int, int) {
 	iFlag := flag.Bool("i", false, "When passed the input.txt file is taken")
 
 	tm := time.Now()
@@ -26,7 +26,7 @@ func Init() (time.Time, *PuzzleInput, int, int) {
 		inputFile = "input.txt"
 	}
 
-	input, err := GetInput(inputFile, false)
+	input, err := GetInput(inputFile, transpose[0])
 	if err != nil {
 		fmt.Println(err)
 	}
