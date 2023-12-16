@@ -1,10 +1,5 @@
 package lib
 
-type Coordinate struct {
-	Row int
-	Col int
-}
-
 // type IntPair struct {
 // 	Lhs, Rhs int
 // }

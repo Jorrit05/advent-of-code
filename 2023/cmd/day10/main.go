@@ -40,20 +40,6 @@ var inValidDirections = map[string]lib.IntSet{
 	"J": {1: struct{}{}, 2: struct{}{}},
 }
 
-type Coordinate struct {
-	Row int
-	Col int
-}
-
-type Location struct {
-	Coordinate Coordinate
-	CameFrom   int
-	Steps      int
-	Pipe       string
-	MaxWidth   int
-	MaxLength  int
-}
-
 func main() {
 	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
 	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
@@ -107,7 +93,7 @@ func fillEdges(maze []string) [][]string {
 }
 
 func markAllNeighbors(row, col int, lines [][]string, maxWidth, maxLength int) {
-	currentPosition := Coordinate{
+	currentPosition := lib.Coordinate{
 		Row: row,
 		Col: col,
 	}
@@ -159,12 +145,12 @@ func markAllNeighbors(row, col int, lines [][]string, maxWidth, maxLength int) {
 	}
 }
 
-func moveToNextPos(currentPosition *Location, maze [][]string) *Location {
+func moveToNextPos(currentPosition *lib.Location, maze [][]string) *lib.Location {
 	getValidDirection(currentPosition, maze)
 	return currentPosition
 }
 
-func getValidDirection(currentPosition *Location, maze [][]string) {
+func getValidDirection(currentPosition *lib.Location, maze [][]string) {
 	possibleDirections := lib.IntSet{}
 	for i := 0; i < 4; i++ {
 		possibleDirections.Add(i)
@@ -214,12 +200,12 @@ func getValidDirection(currentPosition *Location, maze [][]string) {
 	panic(fmt.Sprintf("Stuck: %v", currentPosition))
 }
 
-func getStartPosition(input [][]string) *Location {
+func getStartPosition(input [][]string) *lib.Location {
 	for i, line := range input {
 		for j, char := range line {
 			if char == "S" {
-				return &Location{
-					Coordinate: Coordinate{
+				return &lib.Location{
+					Coordinate: lib.Coordinate{
 						Row: i,
 						Col: j,
 					},
@@ -232,5 +218,5 @@ func getStartPosition(input [][]string) *Location {
 			}
 		}
 	}
-	return &Location{}
+	return &lib.Location{}
 }

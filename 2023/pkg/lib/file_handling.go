@@ -26,7 +26,11 @@ func Init(transpose ...bool) (time.Time, *PuzzleInput, int, int) {
 		inputFile = "input.txt"
 	}
 
-	input, err := GetInput(inputFile, transpose[0])
+	doTranspose := false
+	if len(transpose) > 0 {
+		doTranspose = true
+	}
+	input, err := GetInput(inputFile, doTranspose)
 	if err != nil {
 		fmt.Println(err)
 	}
