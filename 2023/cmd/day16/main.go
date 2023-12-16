@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"slices"
 
 	"github.com/Jorrit05/advent-of-code/pkg/lib"
 	"github.com/gammazero/deque"
@@ -13,58 +14,72 @@ var directions = map[string][]int{
 	"S": {1, 0},
 	"W": {0, -1},
 }
-var cameFrom = map[string]int{
-	"N": 2,
-	"E": 3,
-	"S": 0,
-	"W": 1,
-}
-var x [][]string
+
 var MaxLength = 0
 var MaxWidth = 0
 
 var visitedSet = lib.Set[lib.MazeLocation]{}
 func main() {
-	startTime, input, puzzle1Res, puzzle2Res := lib.Init()
+	startTime, input, puzzle1Res, puzzle2Res := lib.Init(true)
 	defer lib.Close(startTime, &puzzle1Res, &puzzle2Res)
-	for i, line := range input.Lines {
-			x = append(x, make([]string, len(line)))
-			copy(x[i], line)
-	}
 
 	MaxWidth = len(input.Lines[0]) -1
 	MaxLength = len(input.Lines)-1
 
-	puzzle1Res = energize(input.Lines)
-	count := 0
-	for _, line := range x {
-		for _, char := range line {
-			if char == "#" {
-				count++
-			}
+	start,_ := getStartPosition(0,0,input.Lines, "E")
+	puzzle1Res = energize(input.Lines, start)
+
+	results := []int{}
+	startPositions := []*lib.MazeLocation{}
+
+	for i := range input.Lines[0] {
+		startPos, secondStart :=  getStartPosition(0,i,input.Lines, "S")
+		if secondStart != nil && secondStart.Direction != "" {
+			startPositions = append(startPositions, secondStart)
 		}
+		startPositions = append(startPositions, startPos)
+	}
+	for i := range input.Lines[MaxLength-1] {
+		startPos, secondStart :=  getStartPosition(MaxLength ,i,input.Lines, "N")
+		if secondStart != nil && secondStart.Direction != "" {
+			startPositions = append(startPositions, secondStart)
+		}
+		startPositions = append(startPositions, startPos)
 	}
 
-	fmt.Println(count)
+
+	for i := range input.Lines {
+		startPos, secondStart :=  getStartPosition(i,0,input.Lines, "E")
+		if secondStart != nil && secondStart.Direction != "" {
+			startPositions = append(startPositions, secondStart)
+		}
+		startPositions = append(startPositions, startPos)
+	}
+
+	for i := range input.Lines {
+		startPos, secondStart :=  getStartPosition(i,MaxWidth,input.Lines, "W")
+		if secondStart != nil && secondStart.Direction != "" {
+			startPositions = append(startPositions, secondStart)
+		}
+		startPositions = append(startPositions, startPos)
+	}
+
+	for _, startPos := range startPositions {
+		visitedSet = lib.Set[lib.MazeLocation]{}
+		res := energize(input.Lines, startPos)
+		results = append(results, res)
+	}
+
+	puzzle2Res = slices.Max(results)
 }
 
-func energize(input [][]string) int {
+func energize(input [][]string, start *lib.MazeLocation) int {
 	energizedSet := lib.Set[lib.Coordinate]{}
-
-	start := getStartPosition(input)
 
 	var q deque.Deque[*lib.MazeLocation]
 	q.PushBack(start)
 	for {
 		queueLength := q.Len()
-
-		// for i := 0; i < q.Len() ; i++{
-		// 	x := q.PopFront()
-
-		// 	fmt.Println(x)
-		// 	q.PushBack(x)
-		// }
-		// fmt.Println("----")
 
 		if queueLength == 0 {
 			break
@@ -89,14 +104,7 @@ func energize(input [][]string) int {
 				}
 			}
 			visitedSet.Add(*current)
-			// x[current.Coordinate.Row][current.Coordinate.Col] = "#"
-			// lib.PrettyPrint(x)
-			// fmt.Printf("\n\n\n\n\n\n")
-
 		}
-	}
-	for coord := range energizedSet {
-		x[coord.Row][coord.Col] = "#"
 	}
 	return len(energizedSet)
 }
@@ -150,16 +158,8 @@ func determineNewDirections(current *lib.MazeLocation, next *lib.MazeLocation, m
 	return copy
 }
 
-var start = true
 func getNext(current *lib.MazeLocation) (*lib.MazeLocation, error) {
-	direction := []int{}
-	if start {
-		direction = []int{1, 0}
-		current.Direction = "S"
-		start = false
-	} else {
-	  direction = directions[current.Direction]
-	}
+	direction := directions[current.Direction]
 	newCoord := &lib.Coordinate{}
 	newCoord.Row = current.Coordinate.Row + direction[0]
 	newCoord.Col = current.Coordinate.Col + direction[1]
@@ -174,12 +174,18 @@ func getNext(current *lib.MazeLocation) (*lib.MazeLocation, error) {
 	}, nil
 }
 
-func getStartPosition(input [][]string) *lib.MazeLocation {
-	return &lib.MazeLocation{
+func getStartPosition(row, col int, maze [][]string, startPosition string) (*lib.MazeLocation,*lib.MazeLocation) {
+	current := &lib.MazeLocation{
 		Coordinate: lib.Coordinate{
-			Row: 0,
-			Col: 0,
+			Row: row,
+			Col: col,
 		},
-		Direction: "E",
+		Direction: startPosition,
 	}
+
+	copy := determineNewDirections(current, current, maze)
+	if copy.Direction != "" {
+		return current,copy
+	}
+	return current, nil
 }
