@@ -4,11 +4,10 @@ defmodule Advent2024.Days.Day04 do
   """
 
   alias Advent2024.Utils
+  alias Advent2024.ListUtils
 
   def get_input(type \\ :sample) do
-    Utils.get_raw_file(Utils.get_input(type, __MODULE__))
-    |> String.split("\n")
-    |> Enum.map(&String.graphemes/1)
+    Utils.get_character_matrix(Utils.get_input(type, __MODULE__))
   end
 
   def count_xmas(row) do
@@ -26,10 +25,9 @@ defmodule Advent2024.Days.Day04 do
   end
 
   def part1(graphemes) do
-    # horizontal = Enum.reduce(graphemes, 0, fn row, acc -> count_xmas(row, acc) end)
     horizontal = Enum.reduce(graphemes, 0, fn row, acc -> acc + count_xmas(row) end)
 
-    transposed = Enum.zip_with(graphemes, &Function.identity/1)
+    transposed = ListUtils.transpose(graphemes)
     vertical = Enum.reduce(transposed, 0, fn row, acc -> acc + count_xmas(row) end)
 
     # Positive-slope diagonals

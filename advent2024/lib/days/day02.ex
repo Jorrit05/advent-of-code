@@ -4,6 +4,7 @@ defmodule Advent2024.Days.Day02 do
   """
 
   alias Advent2024.Utils
+  alias Advent2024.ListUtils
 
   def get_input(type \\ :sample) do
     Utils.get_integer_matrix(Utils.get_input(type, __MODULE__))
@@ -28,10 +29,10 @@ defmodule Advent2024.Days.Day02 do
     lists
     |> Enum.reduce({0, []}, fn lst, {counter, unsafe_lists} ->
       cond do
-        Utils.ordered?(lst, :increasing) and process_report(lst) ->
+        ListUtils.ordered?(lst, :increasing) and process_report(lst) ->
           {counter + 1, unsafe_lists}
 
-        Utils.ordered?(lst, :decreasing) and process_report(lst) ->
+        ListUtils.ordered?(lst, :decreasing) and process_report(lst) ->
           {counter + 1, unsafe_lists}
 
         true ->
@@ -47,11 +48,11 @@ defmodule Advent2024.Days.Day02 do
       length(list) == index ->
         {counter, unsafe_lists}
 
-      Utils.ordered?(List.delete_at(list, index), :increasing) and
+      ListUtils.ordered?(List.delete_at(list, index), :increasing) and
           process_report(List.delete_at(list, index)) ->
         {counter + 1, unsafe_lists}
 
-      Utils.ordered?(List.delete_at(list, index), :decreasing) and
+      ListUtils.ordered?(List.delete_at(list, index), :decreasing) and
           process_report(List.delete_at(list, index)) ->
         {counter + 1, unsafe_lists}
 
