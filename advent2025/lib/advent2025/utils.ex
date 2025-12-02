@@ -14,6 +14,15 @@ defmodule Advent2025.Utils do
     |> String.downcase()
   end
 
+  def input_type(args) do
+    # Determine the input type based on the argument (default to :sample)
+
+    case args do
+      ["input"] -> :input
+      _ -> :sample
+    end
+  end
+
   def get_input(:sample, day) do
     "priv/#{day(day)}_sample.txt"
   end

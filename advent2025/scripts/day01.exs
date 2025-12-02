@@ -1,13 +1,6 @@
 alias Advent2025.Utils
 
-args = System.argv()
-
-# Determine the input type based on the argument (default to :sample)
-input_type =
-  case args do
-    ["input"] -> :input
-    _ -> :sample
-  end
+input_type = Utils.input_type(System.argv())
 
 data =
   Utils.get_string_grapheme(Utils.get_input(input_type, Day01))
@@ -44,7 +37,7 @@ defmodule Day1 do
   end
 end
 
-{counter, passed, _state} =
+{counter, passed, _} =
   data
   |> Enum.reduce({0, 0, 50}, fn {direction, nr}, {exact_zero, passed_zero, state} ->
     new_dial_pos = Day1.wrap_around(state, nr, direction)
