@@ -43,6 +43,10 @@ defmodule Advent2025.Utils do
     GenServer.call(__MODULE__, {:split_strings, file_path})
   end
 
+  def get_string_list(file_path) do
+    GenServer.call(__MODULE__, {:string_list, file_path})
+  end
+
   def get_string_grapheme(file_path) do
     GenServer.call(__MODULE__, {:string_grapheme, file_path})
   end
@@ -71,6 +75,16 @@ defmodule Advent2025.Utils do
       |> File.stream!()
       |> Stream.map(&String.split(&1))
       |> Enum.map(fn [val] -> String.to_integer(val) end)
+
+    {:reply, content, state}
+  end
+
+  def handle_call({:string_list, file_path}, _from, state) do
+    content =
+      file_path
+      |> File.stream!()
+      |> Stream.map(&String.split(&1))
+      |> Enum.map(fn [val] -> val end)
 
     {:reply, content, state}
   end
