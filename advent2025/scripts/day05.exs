@@ -1,9 +1,7 @@
 alias Advent2025.Utils
 
-input_type = Utils.input_type(System.argv())
-
 [ranges | [ingredients]] =
-  Utils.get_raw_file(Utils.get_input(input_type, Day05))
+  Utils.get_raw_file(Utils.input_type(System.argv(), Day05))
   |> String.split("\n\n", trim: true)
 
 ranges = String.split(ranges, "\n", trim: true)
